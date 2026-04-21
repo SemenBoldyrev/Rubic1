@@ -1,4 +1,5 @@
-using Godot;
+ using Godot;
+using Rubic1.Script.StateMachineScript.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HV.Scripts.StateMachine.Example
 {
-    public partial class StateMachine: Node
+    public partial class StateMachine: Node, IStateMachine
     {
 
         private Dictionary<string, StateNode> playerStates = new();
@@ -15,7 +16,15 @@ namespace HV.Scripts.StateMachine.Example
         private StateNode nextState;
         private StateNode curState;
 
+        public event Action<StateNode> StateChanged;
+
         public string CurStateName => curState.Name;
+        public StateNode CurState => curState;
+
+        public Dictionary<string, StateNode> PlayerStates => playerStates;
+
+        public StateNode InitialState { get => initialState; set => initialState = value; }
+
 
         //INIT
         public override void _Ready()
@@ -74,6 +83,8 @@ namespace HV.Scripts.StateMachine.Example
             curState = nextState;
             nextState = null;
             curState.Enter();
+
+            StateChanged.Invoke(curState);
         }
     }
 }
