@@ -6,8 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace HV.Scripts.StateMachine.Example
 {
+    [GlobalClass]
     public partial class StateMachine: Node, IStateMachine
     {
 
@@ -65,17 +67,21 @@ namespace HV.Scripts.StateMachine.Example
             }
         }
 
-        private void StateTransitionExit(object sender, string name)
+        private void StateTransitionExit(StateNode newState)
         {
-            //GD.Print(playerStates.Count);
-            name = name.ToLower();
-            if (!playerStates.ContainsKey(name)) { return; }
+            try
+            {
+                if (curState == newState) { return; } //? need this ?
 
-            StateNode newState = playerStates[name];
-            if (curState == newState) { return; }
-
-            nextState = newState;
-            curState.Exit();
+                nextState = newState;
+                curState.Exit();
+            }
+            catch
+            {
+                GD.Print("State transition problem!");
+                curState = initialState;
+                curState.Enter();
+            }
         }
 
         private void StateTransitionFinish()
@@ -84,7 +90,7 @@ namespace HV.Scripts.StateMachine.Example
             nextState = null;
             curState.Enter();
 
-            StateChanged.Invoke(curState);
+            StateChanged?.Invoke(curState);
         }
     }
 }

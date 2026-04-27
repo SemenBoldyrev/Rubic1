@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://ckn1ilesds3ga"]
+
+[ext_resource type="Texture2D" uid="uid://twgbkt0ah4xc" path="res://Assets/Sprites/Character2D/SheepSpritesheet_2.png" id="1_71pys"]
+[ext_resource type="PackedScene" uid="uid://bcqysyb7xt4ke" path="res://Scenes/Entities/test_main_character.tscn" id="2_qxu0t"]
+
+[node name="TestLocation" type="Node2D" unique_id=1052303246]
+
+[node name="SheepSpritesheet2" type="Sprite2D" parent="." unique_id=611708706]
+position = Vector2(605.00006, 310)
+scale = Vector2(1.265, 1.1583334)
+texture = ExtResource("1_71pys")
+
+[node name="TestMainCharacter" parent="." unique_id=129582626 instance=ExtResource("2_qxu0t")]
+position = Vector2(486, 301)

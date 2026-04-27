@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace HV.Scripts.StateMachine.Example
 {
-	public abstract partial class StateNode: Node
+    [GlobalClass]
+    public abstract partial class StateNode: Node
 	{
 		//transition -> to make "Exit()"
 		//finish -> to change state
 		//use transition, then finish, so it could do exit things and only them change state, good in giving controll after exit animation
-		public abstract event EventHandler<string> transition;
+		public abstract event Action<StateNode> transition;
 		public abstract event Action finished;
 		//---
-		public abstract int MoveSpeed { get; }
 		public abstract void Enter();
 		public abstract void Exit();
 		public abstract void Input(InputEvent @event);

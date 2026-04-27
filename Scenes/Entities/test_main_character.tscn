@@ -1,0 +1,322 @@
+[gd_scene format=3 uid="uid://bcqysyb7xt4ke"]
+
+[ext_resource type="Script" uid="uid://b4bne632gld5q" path="res://Script/StateMachineScript/StateMachine.cs" id="1_8s080"]
+[ext_resource type="Texture2D" uid="uid://twgbkt0ah4xc" path="res://Assets/Sprites/Character2D/SheepSpritesheet_2.png" id="1_qy86x"]
+[ext_resource type="Script" uid="uid://c0s2a8pa15gkq" path="res://Script/StateMachineScript/StateNodes/Player/PlayerIdle.cs" id="2_f23rs"]
+[ext_resource type="Script" uid="uid://1gtbr2qwt3of" path="res://Script/StateMachineScript/StateNodes/Player/PlayerMovement.cs" id="3_uw0lr"]
+[ext_resource type="Script" uid="uid://ddtedefyeepbi" path="res://Script/Connectors/SpriteConnector.cs" id="6_cl2sk"]
+[ext_resource type="Script" uid="uid://bdkhaafthhv7j" path="res://Script/EntitieScript/CharacterController.cs" id="7_0o1cg"]
+[ext_resource type="Script" uid="uid://dv3umj68cfhkp" path="res://Script/StateMachineScript/StateNodes/Player/PlayerPlayStance.cs" id="7_hqjkk"]
+[ext_resource type="Script" uid="uid://b7y2bcydx5jcl" path="res://Script/StateMachineScript/StateNodes/Player/PlayerLog.cs" id="8_8s080"]
+[ext_resource type="Script" uid="uid://cxm53jogwj8ii" path="res://Script/StateMachineScript/StateNodes/Player/PlayerSit.cs" id="9_f23rs"]
+[ext_resource type="Script" uid="uid://3rb2bujkbdr4" path="res://Script/StateMachineScript/StateNodes/Player/SitSleepState.cs" id="10_uw0lr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_txde3"]
+atlas = ExtResource("1_qy86x")
+region = Rect2(20, 0, 20, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bt1lm"]
+size = Vector2(6, 7)
+
+[sub_resource type="Animation" id="Animation_riif8"]
+resource_name = "FlutePlay"
+length = 0.6
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CharacterController/SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Rect2(40, 60, 20, 20), Rect2(60, 60, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_hqjkk"]
+resource_name = "FluteStay"
+length = 0.6
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CharacterController/SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Rect2(0, 60, 20, 20), Rect2(20, 60, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_4y7sa"]
+resource_name = "GettingItem"
+length = 1.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CharacterController/SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Rect2(20, 80, 20, 20), Rect2(0, 80, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_tuvht"]
+resource_name = "HideItem"
+length = 1.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CharacterController/SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Rect2(0, 80, 20, 20), Rect2(20, 80, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_8s080"]
+resource_name = "Idle"
+length = 0.8
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CharacterController/SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Rect2(0, 100, 20, 20), Rect2(20, 0, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_f23rs"]
+resource_name = "Movement"
+length = 0.6
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CharacterController/SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [Rect2(0, 0, 20, 20), Rect2(20, 0, 20, 20), Rect2(40, 0, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_uw0lr"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CharacterController/SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Rect2(20, 0, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_cl2sk"]
+resource_name = "ReadBook"
+length = 0.6
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CharacterController/SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Rect2(40, 80, 20, 20), Rect2(60, 80, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_wmx5g"]
+resource_name = "SearchItem"
+length = 0.6
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CharacterController/SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Rect2(0, 80, 20, 20), Rect2(20, 80, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_0o1cg"]
+resource_name = "Sit"
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CharacterController/SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Rect2(60, 0, 20, 20), Rect2(80, 0, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_u4kpx"]
+resource_name = "SitSleep"
+length = 1.2
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CharacterController/SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Rect2(60, 20, 20, 20), Rect2(80, 20, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_h57q8"]
+resource_name = "WowSit"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CharacterController/SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Rect2(60, 0, 20, 20)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_4y7sa"]
+_data = {
+&"FlutePlay": SubResource("Animation_riif8"),
+&"FluteStay": SubResource("Animation_hqjkk"),
+&"GettingItem": SubResource("Animation_4y7sa"),
+&"HideItem": SubResource("Animation_tuvht"),
+&"Idle": SubResource("Animation_8s080"),
+&"Movement": SubResource("Animation_f23rs"),
+&"RESET": SubResource("Animation_uw0lr"),
+&"ReadBook": SubResource("Animation_cl2sk"),
+&"SearchItem": SubResource("Animation_wmx5g"),
+&"Sit": SubResource("Animation_0o1cg"),
+&"SitSleep": SubResource("Animation_u4kpx"),
+&"WowSit": SubResource("Animation_h57q8")
+}
+
+[node name="TestMainCharacter" type="Node2D" unique_id=129582626]
+
+[node name="CharacterController" type="CharacterBody2D" parent="." unique_id=151527124]
+script = ExtResource("7_0o1cg")
+metadata/_custom_type_script = "uid://bdkhaafthhv7j"
+
+[node name="SpriteConnector" type="Node2D" parent="CharacterController" unique_id=2022129641]
+script = ExtResource("6_cl2sk")
+metadata/_custom_type_script = "uid://ddtedefyeepbi"
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterController/SpriteConnector" unique_id=733211726]
+texture = SubResource("AtlasTexture_txde3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterController" unique_id=1435594628]
+visible = false
+position = Vector2(0, 3.5)
+shape = SubResource("RectangleShape2D_bt1lm")
+
+[node name="Camera" type="Node2D" parent="CharacterController" unique_id=95117566]
+
+[node name="Camera2D" type="Camera2D" parent="CharacterController/Camera" unique_id=1729949020]
+zoom = Vector2(4, 4)
+position_smoothing_enabled = true
+position_smoothing_speed = 3.0
+
+[node name="StateMachine" type="Node" parent="." unique_id=1571117112 node_paths=PackedStringArray("initialState")]
+script = ExtResource("1_8s080")
+initialState = NodePath("IdlePlayerState")
+metadata/_custom_type_script = "uid://b4bne632gld5q"
+
+[node name="IdlePlayerState" type="Node" parent="StateMachine" unique_id=974681938 node_paths=PackedStringArray("animPlayer", "CharacterController", "timeToSit", "MovementState", "LogState", "InstrumentState", "SitState")]
+script = ExtResource("2_f23rs")
+animPlayer = NodePath("../../AnimationPlayer")
+CharacterController = NodePath("../../CharacterController")
+timeToSit = NodePath("SitTimer")
+MovementState = NodePath("../MovementState")
+LogState = NodePath("../LogState")
+InstrumentState = NodePath("../MusicStanceState")
+SitState = NodePath("../SitState")
+
+[node name="SitTimer" type="Timer" parent="StateMachine/IdlePlayerState" unique_id=2123545050]
+wait_time = 10.0
+one_shot = true
+
+[node name="MovementState" type="Node" parent="StateMachine" unique_id=501436191 node_paths=PackedStringArray("AnimationPlayer", "CharacterController", "IdleState", "LogState", "InstrumentState", "SpriteBody")]
+script = ExtResource("3_uw0lr")
+AnimationPlayer = NodePath("../../AnimationPlayer")
+CharacterController = NodePath("../../CharacterController")
+IdleState = NodePath("../IdlePlayerState")
+LogState = NodePath("../LogState")
+InstrumentState = NodePath("../MusicStanceState")
+SpriteBody = NodePath("../../CharacterController/SpriteConnector")
+speed = 100
+
+[node name="MusicStanceState" type="Node" parent="StateMachine" unique_id=1802402236 node_paths=PackedStringArray("PlayerAnimationPlayer", "IdleState")]
+script = ExtResource("7_hqjkk")
+PlayerAnimationPlayer = NodePath("../../AnimationPlayer")
+IdleState = NodePath("../IdlePlayerState")
+
+[node name="LogState" type="Node" parent="StateMachine" unique_id=512431016 node_paths=PackedStringArray("PlayerAnimationPlayer", "IdleState")]
+script = ExtResource("8_8s080")
+PlayerAnimationPlayer = NodePath("../../AnimationPlayer")
+IdleState = NodePath("../IdlePlayerState")
+
+[node name="SitState" type="Node" parent="StateMachine" unique_id=1625163912 node_paths=PackedStringArray("animPlayer", "TimeToSleep", "SitSleepState", "animPlayer", "CharacterController", "timeToSit", "MovementState", "LogState", "InstrumentState", "SitState")]
+script = ExtResource("9_f23rs")
+animPlayer = NodePath("../../AnimationPlayer")
+TimeToSleep = NodePath("SleepSitTimer")
+SitSleepState = NodePath("../SitSleepState")
+animPlayer = NodePath("../../AnimationPlayer")
+CharacterController = NodePath("../../CharacterController")
+timeToSit = NodePath("../IdlePlayerState/SitTimer")
+MovementState = NodePath("../MovementState")
+LogState = NodePath("../LogState")
+InstrumentState = NodePath("../MusicStanceState")
+SitState = NodePath(".")
+
+[node name="SleepSitTimer" type="Timer" parent="StateMachine/SitState" unique_id=649502847]
+wait_time = 10.0
+one_shot = true
+
+[node name="SitSleepState" type="Node" parent="StateMachine" unique_id=1761205607 node_paths=PackedStringArray("animPlayer", "IdleState")]
+script = ExtResource("10_uw0lr")
+animPlayer = NodePath("../../AnimationPlayer")
+IdleState = NodePath("../IdlePlayerState")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=950412104]
+libraries/ = SubResource("AnimationLibrary_4y7sa")
