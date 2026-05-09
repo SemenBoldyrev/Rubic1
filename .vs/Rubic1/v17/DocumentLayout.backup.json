@@ -3,73 +3,17 @@
   "WorkspaceRootPath": "A:\\Godot games\\rubic1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playerlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playerlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playerplaystance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playerplaystance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playeridle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playeridle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\sets\\animationsets\\playeranimationnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\sets\\animationsets\\playeranimationnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\sets\\keysets\\mainkeynames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\sets\\keysets\\mainkeynames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\sharednodesscript\\states\\playerstatenodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\sharednodesscript\\states\\playerstatenodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\entitiescript\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\entitiescript\\charactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\entitiescript\\interfaces\\icharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\entitiescript\\interfaces\\icharactercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\connectors\\spriteconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\connectors\\spriteconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\connectors\\interfaces\\ispriteconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\connectors\\interfaces\\ispriteconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\sharednodesscript\\sharedentitienodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\sharednodesscript\\sharedentitienodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\interactionareascript\\abs\\abstractinteractionnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\interactionareascript\\abs\\abstractinteractionnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 199,
+      "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 468,
+          "DockedWidth": 248,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -79,187 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerLog.cs",
-              "DocumentMoniker": "A:\\GODOT GAMES\\RUBIC1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerLog.cs",
-              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerLog.cs",
-              "ToolTip": "A:\\GODOT GAMES\\RUBIC1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerLog.cs",
-              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerLog.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Title": "AbstractInteractionNode.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\ABS\\AbstractInteractionNode.cs",
+              "RelativeDocumentMoniker": "Script\\InteractionAreaScript\\ABS\\AbstractInteractionNode.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\ABS\\AbstractInteractionNode.cs",
+              "RelativeToolTip": "Script\\InteractionAreaScript\\ABS\\AbstractInteractionNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T18:30:41.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerPlayStance.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerPlayStance.cs",
-              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerPlayStance.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerPlayStance.cs",
-              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerPlayStance.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAwDIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T17:35:04.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": ".editorconfig",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\.editorconfig",
-              "RelativeDocumentMoniker": ".editorconfig",
-              "ToolTip": "A:\\Godot games\\rubic1\\.editorconfig",
-              "RelativeToolTip": ".editorconfig",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-23T15:55:44.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ISpriteConnector.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Connectors\\Interfaces\\ISpriteConnector.cs",
-              "RelativeDocumentMoniker": "Script\\Connectors\\Interfaces\\ISpriteConnector.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Connectors\\Interfaces\\ISpriteConnector.cs",
-              "RelativeToolTip": "Script\\Connectors\\Interfaces\\ISpriteConnector.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T23:02:44.48Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SpriteConnector.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Connectors\\SpriteConnector.cs",
-              "RelativeDocumentMoniker": "Script\\Connectors\\SpriteConnector.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Connectors\\SpriteConnector.cs",
-              "RelativeToolTip": "Script\\Connectors\\SpriteConnector.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T23:02:20.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerMovement.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerMovement.cs",
-              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwEMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T22:51:26.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainKeyNames.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Sets\\KeySets\\MainKeyNames.cs",
-              "RelativeDocumentMoniker": "Script\\Sets\\KeySets\\MainKeyNames.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Sets\\KeySets\\MainKeyNames.cs",
-              "RelativeToolTip": "Script\\Sets\\KeySets\\MainKeyNames.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T22:43:56.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PlayerStateNodes.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\SharedNodesScript\\States\\PlayerStateNodes.cs",
-              "RelativeDocumentMoniker": "Script\\SharedNodesScript\\States\\PlayerStateNodes.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\SharedNodesScript\\States\\PlayerStateNodes.cs",
-              "RelativeToolTip": "Script\\SharedNodesScript\\States\\PlayerStateNodes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T22:30:12.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerAnimationNames.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Sets\\AnimationSets\\PlayerAnimationNames.cs",
-              "RelativeDocumentMoniker": "Script\\Sets\\AnimationSets\\PlayerAnimationNames.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Sets\\AnimationSets\\PlayerAnimationNames.cs",
-              "RelativeToolTip": "Script\\Sets\\AnimationSets\\PlayerAnimationNames.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T22:20:10.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SharedEntitieNodes.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\SharedNodesScript\\SharedEntitieNodes.cs",
-              "RelativeDocumentMoniker": "Script\\SharedNodesScript\\SharedEntitieNodes.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\SharedNodesScript\\SharedEntitieNodes.cs",
-              "RelativeToolTip": "Script\\SharedNodesScript\\SharedEntitieNodes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T22:16:54.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerIdle.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerIdle.cs",
-              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerIdle.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerIdle.cs",
-              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerIdle.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T22:11:24.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ICharacterController.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\EntitieScript\\Interfaces\\ICharacterController.cs",
-              "RelativeDocumentMoniker": "Script\\EntitieScript\\Interfaces\\ICharacterController.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\EntitieScript\\Interfaces\\ICharacterController.cs",
-              "RelativeToolTip": "Script\\EntitieScript\\Interfaces\\ICharacterController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T22:08:47.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CharacterController.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\EntitieScript\\CharacterController.cs",
-              "RelativeDocumentMoniker": "Script\\EntitieScript\\CharacterController.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\EntitieScript\\CharacterController.cs",
-              "RelativeToolTip": "Script\\EntitieScript\\CharacterController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T21:57:17.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StateNode.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNode.cs",
-              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNode.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNode.cs",
-              "RelativeToolTip": "Script\\StateMachineScript\\StateNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T09:50:42.499Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StateMachine.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateMachine.cs",
-              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateMachine.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateMachine.cs",
-              "RelativeToolTip": "Script\\StateMachineScript\\StateMachine.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAADwv1MAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T16:17:58.506Z",
+              "WhenOpened": "2026-05-04T23:59:45.1Z",
               "EditorCaption": ""
             }
           ]

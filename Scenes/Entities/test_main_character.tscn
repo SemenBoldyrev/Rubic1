@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://twgbkt0ah4xc" path="res://Assets/Sprites/Character2D/SheepSpritesheet_2.png" id="1_qy86x"]
 [ext_resource type="Script" uid="uid://c0s2a8pa15gkq" path="res://Script/StateMachineScript/StateNodes/Player/PlayerIdle.cs" id="2_f23rs"]
 [ext_resource type="Script" uid="uid://1gtbr2qwt3of" path="res://Script/StateMachineScript/StateNodes/Player/PlayerMovement.cs" id="3_uw0lr"]
+[ext_resource type="PackedScene" uid="uid://boj5x5f31w87m" path="res://Scenes/Other/interaction_area.tscn" id="4_4y7sa"]
 [ext_resource type="Script" uid="uid://ddtedefyeepbi" path="res://Script/Connectors/SpriteConnector.cs" id="6_cl2sk"]
 [ext_resource type="Script" uid="uid://bdkhaafthhv7j" path="res://Script/EntitieScript/CharacterController.cs" id="7_0o1cg"]
 [ext_resource type="Script" uid="uid://dv3umj68cfhkp" path="res://Script/StateMachineScript/StateNodes/Player/PlayerPlayStance.cs" id="7_hqjkk"]
@@ -17,6 +18,9 @@ region = Rect2(20, 0, 20, 20)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bt1lm"]
 size = Vector2(6, 7)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_tuvht"]
+radius = 48.010414
 
 [sub_resource type="Animation" id="Animation_riif8"]
 resource_name = "FlutePlay"
@@ -239,6 +243,7 @@ script = ExtResource("7_0o1cg")
 metadata/_custom_type_script = "uid://bdkhaafthhv7j"
 
 [node name="SpriteConnector" type="Node2D" parent="CharacterController" unique_id=2022129641]
+y_sort_enabled = true
 script = ExtResource("6_cl2sk")
 metadata/_custom_type_script = "uid://ddtedefyeepbi"
 
@@ -256,6 +261,12 @@ shape = SubResource("RectangleShape2D_bt1lm")
 zoom = Vector2(4, 4)
 position_smoothing_enabled = true
 position_smoothing_speed = 3.0
+
+[node name="InteractionArea" parent="CharacterController" unique_id=214728608 instance=ExtResource("4_4y7sa")]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="CharacterController/InteractionArea" unique_id=197852986]
+shape = SubResource("CircleShape2D_tuvht")
+debug_color = Color(0.19826189, 0.62091666, 0.4645359, 0.41960785)
 
 [node name="StateMachine" type="Node" parent="." unique_id=1571117112 node_paths=PackedStringArray("initialState")]
 script = ExtResource("1_8s080")

@@ -2,6 +2,37 @@
 
 [ext_resource type="Texture2D" uid="uid://twgbkt0ah4xc" path="res://Assets/Sprites/Character2D/SheepSpritesheet_2.png" id="1_71pys"]
 [ext_resource type="PackedScene" uid="uid://bcqysyb7xt4ke" path="res://Scenes/Entities/test_main_character.tscn" id="2_qxu0t"]
+[ext_resource type="Texture2D" uid="uid://dnq0s8jqt2gtp" path="res://Assets/Sprites/Character2D/Bee_spritesheetTSTA.png" id="3_1qub6"]
+[ext_resource type="PackedScene" uid="uid://dkc0mc242p4e3" path="res://Scenes/Other/interaction_action_area.tscn" id="4_aw3vq"]
+[ext_resource type="Script" uid="uid://b63pqejf3cpmg" path="res://Script/InteractionAreaScript/Interactions/TestInteraction2.cs" id="5_xwxo7"]
+[ext_resource type="Script" uid="uid://d12ckal6iccjq" path="res://Script/InteractionAreaScript/Interactions/TestInteraction.cs" id="5_y3pib"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aw3vq"]
+atlas = ExtResource("3_1qub6")
+region = Rect2(60, 0, 20, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y3pib"]
+atlas = ExtResource("3_1qub6")
+region = Rect2(60, 20, 20, 20)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xwxo7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aw3vq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y3pib")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 2.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [node name="TestLocation" type="Node2D" unique_id=1052303246]
 
@@ -12,3 +43,39 @@ texture = ExtResource("1_71pys")
 
 [node name="TestMainCharacter" parent="." unique_id=129582626 instance=ExtResource("2_qxu0t")]
 position = Vector2(486, 301)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1109549625]
+position = Vector2(404, 298)
+sprite_frames = SubResource("SpriteFrames_xwxo7")
+animation = &"Idle"
+autoplay = "Idle"
+frame_progress = 0.5494867
+flip_h = true
+
+[node name="InteractionActionArea" parent="AnimatedSprite2D" unique_id=1953759541 instance=ExtResource("4_aw3vq")]
+script = ExtResource("5_xwxo7")
+interactionAnimation = 1
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." unique_id=1566594132]
+position = Vector2(416, 259)
+sprite_frames = SubResource("SpriteFrames_xwxo7")
+animation = &"Idle"
+autoplay = "Idle"
+frame_progress = 0.6042772
+flip_h = true
+
+[node name="InteractionActionArea" parent="AnimatedSprite2D2" unique_id=113547983 instance=ExtResource("4_aw3vq")]
+script = ExtResource("5_y3pib")
+interactionAnimation = 2
+
+[node name="AnimatedSprite2D3" type="AnimatedSprite2D" parent="." unique_id=1637127252]
+position = Vector2(420, 330)
+sprite_frames = SubResource("SpriteFrames_xwxo7")
+animation = &"Idle"
+autoplay = "Idle"
+frame_progress = 0.032432
+flip_h = true
+
+[node name="InteractionActionArea" parent="AnimatedSprite2D3" unique_id=1257277755 instance=ExtResource("4_aw3vq")]
+script = ExtResource("5_y3pib")
+interactionAnimation = 3
