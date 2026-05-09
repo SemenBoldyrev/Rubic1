@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "A:\\Godot games\\rubic1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\interactionareascript\\abs\\abstractinteractionnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\interactionareascript\\abs\\abstractinteractionnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\interactionareascript\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\interactionareascript\\interactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\interactionareascript\\playerinteractionnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\interactionareascript\\playerinteractionnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\sets\\animationsets\\interactionanimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\sets\\animationsets\\interactionanimations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\sets\\animationsets\\playeranimationnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\sets\\animationsets\\playeranimationnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\interactionareascript\\interactions\\testinteraction2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\interactionareascript\\interactions\\testinteraction2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\interactionareascript\\interactions\\testinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\interactionareascript\\interactions\\testinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +51,98 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerMovement.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerMovement.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T23:20:09.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InteractionAnimations.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Sets\\AnimationSets\\InteractionAnimations.cs",
+              "RelativeDocumentMoniker": "Script\\Sets\\AnimationSets\\InteractionAnimations.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Sets\\AnimationSets\\InteractionAnimations.cs",
+              "RelativeToolTip": "Script\\Sets\\AnimationSets\\InteractionAnimations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T00:16:07.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerAnimationNames.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Sets\\AnimationSets\\PlayerAnimationNames.cs",
+              "RelativeDocumentMoniker": "Script\\Sets\\AnimationSets\\PlayerAnimationNames.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Sets\\AnimationSets\\PlayerAnimationNames.cs",
+              "RelativeToolTip": "Script\\Sets\\AnimationSets\\PlayerAnimationNames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T00:16:04.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestInteraction2.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\Interactions\\TestInteraction2.cs",
+              "RelativeDocumentMoniker": "Script\\InteractionAreaScript\\Interactions\\TestInteraction2.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\Interactions\\TestInteraction2.cs",
+              "RelativeToolTip": "Script\\InteractionAreaScript\\Interactions\\TestInteraction2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T00:15:06.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerInteractionNode.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\PlayerInteractionNode.cs",
+              "RelativeDocumentMoniker": "Script\\InteractionAreaScript\\PlayerInteractionNode.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\PlayerInteractionNode.cs",
+              "RelativeToolTip": "Script\\InteractionAreaScript\\PlayerInteractionNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T00:07:29.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InteractionManager.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\InteractionManager.cs",
+              "RelativeDocumentMoniker": "Script\\InteractionAreaScript\\InteractionManager.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\InteractionManager.cs",
+              "RelativeToolTip": "Script\\InteractionAreaScript\\InteractionManager.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowFsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T00:05:45.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestInteraction.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\Interactions\\TestInteraction.cs",
+              "RelativeDocumentMoniker": "Script\\InteractionAreaScript\\Interactions\\TestInteraction.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\Interactions\\TestInteraction.cs",
+              "RelativeToolTip": "Script\\InteractionAreaScript\\Interactions\\TestInteraction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T00:02:48.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AbstractInteractionNode.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\ABS\\AbstractInteractionNode.cs",
               "RelativeDocumentMoniker": "Script\\InteractionAreaScript\\ABS\\AbstractInteractionNode.cs",
               "ToolTip": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\ABS\\AbstractInteractionNode.cs",
               "RelativeToolTip": "Script\\InteractionAreaScript\\ABS\\AbstractInteractionNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T23:59:45.1Z",
               "EditorCaption": ""

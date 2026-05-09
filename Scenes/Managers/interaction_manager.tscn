@@ -1,0 +1,114 @@
+[gd_scene format=3 uid="uid://bh4vuh8a3rwow"]
+
+[ext_resource type="Script" uid="uid://cd87fyhiwnnq2" path="res://Script/InteractionAreaScript/InteractionManager.cs" id="1_5o5lg"]
+[ext_resource type="Script" uid="uid://ddtedefyeepbi" path="res://Script/Connectors/SpriteConnector.cs" id="2_c142c"]
+[ext_resource type="Texture2D" uid="uid://bkybth3d4b1ib" path="res://Assets/Sprites/Emotions/Symbols1.png" id="3_qeupr"]
+
+[sub_resource type="Animation" id="Animation_va1qi"]
+resource_name = "CommonInteraction"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.20000005, 0.39999998, 0.6),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [Rect2(0, 0, 20, 20), Rect2(20, 0, 20, 20), Rect2(40, 0, 20, 20), Rect2(60, 0, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_1lv82"]
+resource_name = "DialInteraction"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.20000005, 0.39999998, 0.6, 0.79999995),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [Rect2(0, 20, 20, 20), Rect2(20, 20, 20, 20), Rect2(40, 20, 20, 20), Rect2(60, 20, 20, 20), Rect2(0, 20, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_c142c"]
+resource_name = "None"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Rect2(-20, -20, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_be46t"]
+resource_name = "QuestionInteraction"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.20000005, 0.39999998, 0.6, 0.79999995),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [Rect2(0, 40, 20, 20), Rect2(20, 40, 20, 20), Rect2(40, 40, 20, 20), Rect2(60, 40, 20, 20), Rect2(0, 40, 20, 20)]
+}
+
+[sub_resource type="Animation" id="Animation_2hli1"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("SpriteConnector/Sprite2D:texture:region")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Rect2(0, 0, 20, 20)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ljk8u"]
+_data = {
+&"CommonInteraction": SubResource("Animation_va1qi"),
+&"DialInteraction": SubResource("Animation_1lv82"),
+&"None": SubResource("Animation_c142c"),
+&"QuestionInteraction": SubResource("Animation_be46t"),
+&"RESET": SubResource("Animation_2hli1")
+}
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_is7h6"]
+atlas = ExtResource("3_qeupr")
+region = Rect2(0, 0, 20, 20)
+
+[node name="InteractionManager" type="Node" unique_id=1099689838 node_paths=PackedStringArray("animPlayer", "spriteBody")]
+script = ExtResource("1_5o5lg")
+animPlayer = NodePath("AnimationPlayer")
+spriteBody = NodePath("SpriteConnector")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=702224664]
+libraries/ = SubResource("AnimationLibrary_ljk8u")
+
+[node name="SpriteConnector" type="Node2D" parent="." unique_id=2025514548]
+script = ExtResource("2_c142c")
+metadata/_custom_type_script = "uid://ddtedefyeepbi"
+
+[node name="Sprite2D" type="Sprite2D" parent="SpriteConnector" unique_id=1314260793]
+texture = SubResource("AtlasTexture_is7h6")
