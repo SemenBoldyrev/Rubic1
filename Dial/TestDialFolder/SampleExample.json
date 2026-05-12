@@ -1,0 +1,105 @@
+[
+
+{
+  "Id": 0,
+  "Name": "Sample",
+  "Dial": "Its a sample dialog!\nWhat do you think example?",
+  "SpritePath": "res://Assets\\Sprites\\Portraits\\TST_portraits.png",
+  "SpriteSpan": [100, 0],
+  "SpriteDimension": [100, 100],
+  "Addition": [0],
+  "Tag": 0,
+  "Next": 1,
+  "Event": 0,
+  "ChoiceNames": [],
+  "ChoiceCheck": [],
+  "ChoiceNext": [],
+  "ChoiceEvent": []
+},
+
+{
+  "Id": 1,
+  "Name": "Example",
+  "Dial": "...",
+  "SpritePath": "res://Assets\\Sprites\\Portraits\\TST_portraits.png",
+  "SpriteSpan": [0, 0],
+  "SpriteDimension": [100, 100],
+  "Addition": [0],
+  "Tag": 0,
+  "Next": 0,
+  "Event": 0,
+  "ChoiceNames": ["Yes","No","Maybe"],
+  "ChoiceCheck": [0,0,0],
+  "ChoiceNext": [2,3,4],
+  "ChoiceEvent": [0,0,0]
+},
+
+{
+  "Id": 2,
+  "Name": "Sample",
+  "Dial": "Glad to hear!",
+  "SpritePath": "res://Assets\\Sprites\\Portraits\\TST_portraits.png",
+  "SpriteSpan": [100, 0],
+  "SpriteDimension": [100, 100],
+  "Addition": [0],
+  "Tag": 0,
+  "Next": 5,
+  "Event": 0,
+  "ChoiceNames": [],
+  "ChoiceCheck": [],
+  "ChoiceNext": [],
+  "ChoiceEvent": []
+},
+
+{
+  "Id": 3,
+  "Name": "Sample",
+  "Dial": "Fuck you!",
+  "SpritePath": "res://Assets\\Sprites\\Portraits\\TST_portraits.png",
+  "SpriteSpan": [100, 0],
+  "SpriteDimension": [100, 100],
+  "Addition": [0],
+  "Tag": 0,
+  "Next": 5,
+  "Event": 0,
+  "ChoiceNames": [],
+  "ChoiceCheck": [],
+  "ChoiceNext": [],
+  "ChoiceEvent": []
+},
+
+{
+  "Id": 4,
+  "Name": "Sample",
+  "Dial": "What do you mean?",
+  "SpritePath": "res://Assets\\Sprites\\Portraits\\TST_portraits.png",
+  "SpriteSpan": [100, 0],
+  "SpriteDimension": [100, 100],
+  "Addition": [0],
+  "Tag": 0,
+  "Next": 5,
+  "Event": 0,
+  "ChoiceNames": [],
+  "ChoiceCheck": [],
+  "ChoiceNext": [],
+  "ChoiceEvent": []
+},
+
+{
+  "Id": 5,
+  "Name": "Example",
+  "Dial": "Thanks, I guess...",
+  "SpritePath": "res://Assets\\Sprites\\Portraits\\TST_portraits.png",
+  "SpriteSpan": [0, 0],
+  "SpriteDimension": [100, 100],
+  "Addition": [0],
+  "Tag": 0,
+  "Next": 0,
+  "Event": 0,
+  "ChoiceNames": [],
+  "ChoiceCheck": [],
+  "ChoiceNext": [],
+  "ChoiceEvent": []
+}
+
+]
