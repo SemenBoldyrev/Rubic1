@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Rubic1.Script.DialogScript.Interfaces
 {
-    internal interface IDialCollection
+    public interface IDialCollection
         ///holds the parts of dialog
     {
-        public Dictionary<int, DialPartData> DialDiactionary { get; }
+        public Dictionary<int, DialPartData> DialDictionary { get; }
         public List<DialPartData> DialList { get; }
         public List<DialPartData> OriginDialList { get; }
 

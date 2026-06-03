@@ -11,8 +11,11 @@ namespace Rubic1.Script.DialogScript.Interfaces
     {
         public event Action<bool> DialogEnded; ///shows how well the dialog ended
         public bool DialogIsPlaying { get; }
+        public IDialInterface CurrentDialInterface { get; }
+        public IDialCollection CurrentDialCollection { get; }
 
-        public void StartDialog(string path, int special = 0);
+        public void StartDialogByPath(string path, int dialInterface = 0);
+        public void StartDialog(IDialCollection dialCollection, int dialInterface = 0);
         public void ForseEndDialog();
     }
 }

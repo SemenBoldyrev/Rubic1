@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cm6ascm8dmyp4"]
+
+[ext_resource type="PackedScene" uid="uid://l3cv4sea57gk" path="res://Scenes/Managers/dialog_manager.tscn" id="1_vl46v"]
+
+[node name="PlayerUi" type="Control" unique_id=389871876]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="DialogManager" parent="." unique_id=788445342 instance=ExtResource("1_vl46v")]
+layout_mode = 1

@@ -5,6 +5,7 @@
 [ext_resource type="Script" uid="uid://c0s2a8pa15gkq" path="res://Script/StateMachineScript/StateNodes/Player/PlayerIdle.cs" id="2_f23rs"]
 [ext_resource type="Script" uid="uid://1gtbr2qwt3of" path="res://Script/StateMachineScript/StateNodes/Player/PlayerMovement.cs" id="3_uw0lr"]
 [ext_resource type="PackedScene" uid="uid://boj5x5f31w87m" path="res://Scenes/Other/interaction_area.tscn" id="4_4y7sa"]
+[ext_resource type="PackedScene" uid="uid://cm6ascm8dmyp4" path="res://Scenes/Other/player_ui.tscn" id="4_tuvht"]
 [ext_resource type="Script" uid="uid://ddtedefyeepbi" path="res://Script/Connectors/SpriteConnector.cs" id="6_cl2sk"]
 [ext_resource type="Script" uid="uid://bdkhaafthhv7j" path="res://Script/EntitieScript/CharacterController.cs" id="7_0o1cg"]
 [ext_resource type="Script" uid="uid://dv3umj68cfhkp" path="res://Script/StateMachineScript/StateNodes/Player/PlayerPlayStance.cs" id="7_hqjkk"]
@@ -258,9 +259,14 @@ shape = SubResource("RectangleShape2D_bt1lm")
 [node name="Camera" type="Node2D" parent="CharacterController" unique_id=95117566]
 
 [node name="Camera2D" type="Camera2D" parent="CharacterController/Camera" unique_id=1729949020]
+position = Vector2(1, -5)
 zoom = Vector2(4, 4)
 position_smoothing_enabled = true
 position_smoothing_speed = 3.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="CharacterController/Camera" unique_id=1877154376]
+
+[node name="PlayerUi" parent="CharacterController/Camera/CanvasLayer" unique_id=389871876 instance=ExtResource("4_tuvht")]
 
 [node name="InteractionArea" parent="CharacterController" unique_id=214728608 instance=ExtResource("4_4y7sa")]
 

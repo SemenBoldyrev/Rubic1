@@ -18,6 +18,11 @@ config/icon="res://Assets/Sprites/icon.svg"
 [autoload]
 
 InteractionManager="*uid://bh4vuh8a3rwow"
+MainUi="*uid://cm6ascm8dmyp4"
+
+[display]
+
+window/stretch/mode="canvas_items"
 
 [dotnet]
 

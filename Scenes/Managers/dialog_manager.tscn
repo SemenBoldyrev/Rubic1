@@ -1,0 +1,367 @@
+[gd_scene format=3 uid="uid://l3cv4sea57gk"]
+
+[ext_resource type="Script" uid="uid://beu0bn4kajwiu" path="res://Script/DialogScript/UI/DefaultDialContainer.cs" id="1_6blio"]
+[ext_resource type="Script" uid="uid://dr228es0ksojv" path="res://Script/DialogScript/DialManager.cs" id="1_quppk"]
+[ext_resource type="Texture2D" uid="uid://b5f45aeqkhjp" path="res://Assets/Sprites/UI/Fat_circle.png" id="2_eln57"]
+[ext_resource type="Texture2D" uid="uid://cw3j2v47l2jdc" path="res://Assets/Sprites/UI/pointer.png" id="3_mjb0f"]
+[ext_resource type="Texture2D" uid="uid://d382yq72qunty" path="res://Assets/Sprites/UI/cts_dial_bg.png" id="4_eln57"]
+[ext_resource type="Script" uid="uid://biuivgx4i3qpv" path="res://Script/DialogScript/UI/JustTextDialContainer.cs" id="4_mjb0f"]
+
+[sub_resource type="Animation" id="Animation_quppk"]
+resource_name = "NEXT"
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MarginContainer/MainContainer/HBoxContainer/Text/TextureRect2:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [Vector2(327.5, 220), Vector2(327.5, 230)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MarginContainer/MainContainer/HBoxContainer/Text/TextureRect2:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_lle7m"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MarginContainer/MainContainer/HBoxContainer/Text/TextureRect2:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(327.5, 220)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("MarginContainer/MainContainer/HBoxContainer/Text/TextureRect2:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_13ja6"]
+_data = {
+&"NEXT": SubResource("Animation_quppk"),
+&"RESET": SubResource("Animation_lle7m")
+}
+
+[node name="DialogManager" type="Control" unique_id=788445342]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_quppk")
+
+[node name="TestDialogInterface" type="Control" parent="." unique_id=964037867 node_paths=PackedStringArray("ImgContainer", "NameLabel", "DialLabel", "ButtonContainer", "NextAnimationPlayer")]
+process_mode = 4
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_6blio")
+ImgContainer = NodePath("MarginContainer/MainContainer/HBoxContainer/VBoxContainer/Img/MarginContainer/TextureRect")
+NameLabel = NodePath("MarginContainer/MainContainer/HBoxContainer/VBoxContainer/Name/MarginContainer/RichTextLabel")
+DialLabel = NodePath("MarginContainer/MainContainer/HBoxContainer/Text/MarginContainer/RichTextLabel")
+ButtonContainer = NodePath("MarginContainer/MainContainer/HBoxContainer/Choice/MarginContainer/VBoxContainer")
+NextAnimationPlayer = NodePath("AnimationPlayer")
+
+[node name="MarginContainer" type="MarginContainer" parent="TestDialogInterface" unique_id=1838041520]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="MainContainer" type="Control" parent="TestDialogInterface/MarginContainer" unique_id=846098011]
+custom_minimum_size = Vector2(0, 250)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TestDialogInterface/MarginContainer/MainContainer" unique_id=1949448849]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer" unique_id=2039607793]
+layout_mode = 2
+
+[node name="Img" type="Control" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/VBoxContainer" unique_id=1104783190]
+custom_minimum_size = Vector2(210, 218)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ColorRect" type="ColorRect" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/VBoxContainer/Img" unique_id=509924062]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.21176471)
+
+[node name="NinePatchRect" type="NinePatchRect" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/VBoxContainer/Img" unique_id=1910149769]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_eln57")
+patch_margin_left = 6
+patch_margin_top = 6
+patch_margin_right = 6
+patch_margin_bottom = 6
+
+[node name="MarginContainer" type="MarginContainer" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/VBoxContainer/Img" unique_id=1956764872]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="TextureRect" type="TextureRect" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/VBoxContainer/Img/MarginContainer" unique_id=1802504049]
+layout_mode = 2
+
+[node name="Name" type="Control" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/VBoxContainer" unique_id=736121076]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="ColorRect" type="ColorRect" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/VBoxContainer/Name" unique_id=1819800095]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.21176471)
+
+[node name="NinePatchRect" type="NinePatchRect" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/VBoxContainer/Name" unique_id=1175927561]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_eln57")
+patch_margin_left = 6
+patch_margin_top = 6
+patch_margin_right = 6
+patch_margin_bottom = 6
+
+[node name="MarginContainer" type="MarginContainer" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/VBoxContainer/Name" unique_id=420349980]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/VBoxContainer/Name/MarginContainer" unique_id=1170652849]
+layout_mode = 2
+bbcode_enabled = true
+text = "sample"
+fit_content = true
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Text" type="Control" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer" unique_id=1997067532]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ColorRect" type="ColorRect" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/Text" unique_id=1962106364]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.21176471)
+
+[node name="NinePatchRect" type="NinePatchRect" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/Text" unique_id=1180283915]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_eln57")
+patch_margin_left = 6
+patch_margin_top = 6
+patch_margin_right = 6
+patch_margin_bottom = 6
+
+[node name="MarginContainer" type="MarginContainer" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/Text" unique_id=2105862719]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/Text/MarginContainer" unique_id=1684405398]
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 24
+theme_override_font_sizes/bold_font_size = 24
+theme_override_font_sizes/bold_italics_font_size = 24
+theme_override_font_sizes/italics_font_size = 24
+theme_override_font_sizes/mono_font_size = 24
+bbcode_enabled = true
+text = "sample"
+fit_content = true
+scroll_active = false
+
+[node name="TextureRect2" type="TextureRect" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/Text" unique_id=1780724345]
+visible = false
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 327.5
+offset_top = 220.0
+offset_right = 366.5
+offset_bottom = 260.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 4
+size_flags_vertical = 8
+texture = ExtResource("3_mjb0f")
+
+[node name="Choice" type="Control" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer" unique_id=1935091396]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/Choice" unique_id=1072113835]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.21176471)
+
+[node name="NinePatchRect" type="NinePatchRect" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/Choice" unique_id=613783742]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_eln57")
+patch_margin_left = 6
+patch_margin_top = 6
+patch_margin_right = 6
+patch_margin_bottom = 6
+
+[node name="MarginContainer" type="MarginContainer" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/Choice" unique_id=2038868632]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TestDialogInterface/MarginContainer/MainContainer/HBoxContainer/Choice/MarginContainer" unique_id=1686245048]
+layout_mode = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="TestDialogInterface" unique_id=1778983618]
+process_mode = 1
+libraries/ = SubResource("AnimationLibrary_13ja6")
+
+[node name="Testdial2" type="Control" parent="." unique_id=1846428603 node_paths=PackedStringArray("DialLabel")]
+process_mode = 4
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("4_mjb0f")
+DialLabel = NodePath("TextureRect/MarginContainer/RichTextLabel")
+
+[node name="TextureRect" type="TextureRect" parent="Testdial2" unique_id=1323574996]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -50.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_eln57")
+
+[node name="MarginContainer" type="MarginContainer" parent="Testdial2/TextureRect" unique_id=1680272772]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 200
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 200
+theme_override_constants/margin_bottom = 5
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Testdial2/TextureRect/MarginContainer" unique_id=1012299657]
+layout_mode = 2
+horizontal_alignment = 1
+vertical_alignment = 1
