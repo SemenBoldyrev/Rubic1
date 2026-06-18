@@ -1,0 +1,9 @@
+[gd_resource type="Shortcut" format=3 uid="uid://dcsktwt8lytje"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_npfa8"]
+device = -1
+keycode = 77
+unicode = 109
+
+[resource]
+events = [SubResource("InputEventKey_npfa8")]

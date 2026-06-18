@@ -1,0 +1,7 @@
+If occures, that while sound synhronization, some kind of poltergeist 
+decides to invade this script, 
+then try use limiter as a filter in audio bus
+High pass filter did good
+cutoff hz 1000
+resonance 0.9
+db 6

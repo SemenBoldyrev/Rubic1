@@ -303,24 +303,27 @@ InstrumentState = NodePath("../MusicStanceState")
 SpriteBody = NodePath("../../CharacterController/SpriteConnector")
 speed = 100
 
-[node name="MusicStanceState" type="Node" parent="StateMachine" unique_id=1802402236 node_paths=PackedStringArray("PlayerAnimationPlayer", "IdleState")]
+[node name="MusicStanceState" type="Node" parent="StateMachine" unique_id=1802402236 node_paths=PackedStringArray("PlayerAnimationPlayer", "IdleState", "DanceAnimSpanTimer")]
 script = ExtResource("7_hqjkk")
 PlayerAnimationPlayer = NodePath("../../AnimationPlayer")
 IdleState = NodePath("../IdlePlayerState")
+DanceAnimSpanTimer = NodePath("DancingSpanTimer")
+
+[node name="DancingSpanTimer" type="Timer" parent="StateMachine/MusicStanceState" unique_id=735864573]
+wait_time = 0.8
+one_shot = true
 
 [node name="LogState" type="Node" parent="StateMachine" unique_id=512431016 node_paths=PackedStringArray("PlayerAnimationPlayer", "IdleState")]
 script = ExtResource("8_8s080")
 PlayerAnimationPlayer = NodePath("../../AnimationPlayer")
 IdleState = NodePath("../IdlePlayerState")
 
-[node name="SitState" type="Node" parent="StateMachine" unique_id=1625163912 node_paths=PackedStringArray("animPlayer", "TimeToSleep", "SitSleepState", "animPlayer", "CharacterController", "timeToSit", "MovementState", "LogState", "InstrumentState", "SitState")]
+[node name="SitState" type="Node" parent="StateMachine" unique_id=1625163912 node_paths=PackedStringArray("animPlayer", "CharacterController", "TimeToSleep", "SitSleepState", "MovementState", "LogState", "InstrumentState", "SitState")]
 script = ExtResource("9_f23rs")
 animPlayer = NodePath("../../AnimationPlayer")
+CharacterController = NodePath("../../CharacterController")
 TimeToSleep = NodePath("SleepSitTimer")
 SitSleepState = NodePath("../SitSleepState")
-animPlayer = NodePath("../../AnimationPlayer")
-CharacterController = NodePath("../../CharacterController")
-timeToSit = NodePath("../IdlePlayerState/SitTimer")
 MovementState = NodePath("../MovementState")
 LogState = NodePath("../LogState")
 InstrumentState = NodePath("../MusicStanceState")

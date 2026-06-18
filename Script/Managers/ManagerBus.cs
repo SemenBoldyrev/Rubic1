@@ -2,6 +2,8 @@ using Rubic1.Script.DialogScript;
 using Rubic1.Script.DialogScript.Interfaces;
 using Rubic1.Script.InteractionAreaScript;
 using Rubic1.Script.Sets.AnimationSets;
+using Rubic1.Script.NewPianoScript;
+using Rubic1.Script.NewPianoScript.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,8 +16,10 @@ namespace Rubic1.Script.Managers
     {
         private static InteractionManager interactionManager = new();
         private static IDialManager dialogManager = new DialManager();
+        private static IPianoManager pianoManager = new PianoManager();
 
         public static InteractionManager InteractionManager { get { return interactionManager; } set { interactionManager = value; } }
         public static IDialManager DialogManager { get {return dialogManager; } set { dialogManager = value; } }
+        public static IPianoManager PianoManager { get {return pianoManager; } set { pianoManager = value; } }
     }
 }

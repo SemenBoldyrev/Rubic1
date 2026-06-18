@@ -1,0 +1,48 @@
+[gd_resource type="Resource" script_class="InstrumentRes" format=3 uid="uid://l2e7cvv1njie"]
+
+[ext_resource type="Script" uid="uid://cih5b048k0ptq" path="res://Script/NewPianoScript/Data/InstrumentRes.cs" id="1_sc24q"]
+[ext_resource type="Script" uid="uid://bqqtpni3hdl3v" path="res://Script/NewPianoScript/Data/SoundDataScript/AltData.cs" id="2_0lytt"]
+[ext_resource type="Curve" uid="uid://bkovvq7ef0akr" path="res://Resources/CurvePresets/SineWave.tres" id="2_3j10o"]
+[ext_resource type="Curve" uid="uid://bnkwxs3q3h55w" path="res://Resources/CurvePresets/StandartPedal.tres" id="2_uufms"]
+[ext_resource type="Script" uid="uid://cfiqfmrvgkk57" path="res://Script/NewPianoScript/Data/SoundDataScript/SoundData.cs" id="3_7u3fa"]
+[ext_resource type="Curve" uid="uid://dlrrfgupmarb6" path="res://Resources/CurvePresets/BasicEnvelopCurveA.tres" id="3_letg1"]
+[ext_resource type="Curve" uid="uid://mm3qurqq5eee" path="res://Resources/CurvePresets/StandartVibrato.tres" id="4_jb7nc"]
+[ext_resource type="Curve" uid="uid://cfdh8l6y1i4o1" path="res://Resources/CurvePresets/BasicEnvelopCurveB.tres" id="4_vn6ei"]
+[ext_resource type="Script" uid="uid://dcmbg3260hxty" path="res://Script/NewPianoScript/Data/SoundDataScript/EnvelopSoundData.cs" id="5_0lytt"]
+[ext_resource type="Curve" uid="uid://bu8aquftl8v6m" path="res://Resources/CurvePresets/Blank.tres" id="6_vn6ei"]
+
+[sub_resource type="AudioEffectDelay" id="AudioEffectDelay_fxqcg"]
+
+[sub_resource type="Resource" id="Resource_uufms"]
+script = ExtResource("2_0lytt")
+pedalEnvelopB = ExtResource("2_uufms")
+vibratoLFO = ExtResource("4_jb7nc")
+metadata/_custom_type_script = "uid://bqqtpni3hdl3v"
+
+[sub_resource type="Resource" id="Resource_sr81r"]
+script = ExtResource("5_0lytt")
+envelopA = ExtResource("3_letg1")
+envelopB = ExtResource("4_vn6ei")
+metadata/_custom_type_script = "uid://dcmbg3260hxty"
+
+[sub_resource type="Curve" id="Curve_vn6ei"]
+_limits = [-5.0, 5.0, 0.0, 1.0]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.25, -1), 0.0, 0.0, 0, 0, Vector2(0.75, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_7u3fa"]
+script = ExtResource("3_7u3fa")
+alternativeType = 2
+ascelerator = ExtResource("2_3j10o")
+pitchLFO = ExtResource("6_vn6ei")
+volumeLFO = SubResource("Curve_vn6ei")
+envelopData = SubResource("Resource_sr81r")
+altSoundData = SubResource("Resource_uufms")
+metadata/_custom_type_script = "uid://cfiqfmrvgkk57"
+
+[resource]
+script = ExtResource("1_sc24q")
+name = "Mega fonk mango player"
+soundData = SubResource("Resource_7u3fa")
+audioFilters = Array[AudioEffect]([SubResource("AudioEffectDelay_fxqcg")])
+metadata/_custom_type_script = "uid://cih5b048k0ptq"

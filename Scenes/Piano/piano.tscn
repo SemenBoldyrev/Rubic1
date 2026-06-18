@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://clv81lqnrtgt0"]
+
+[ext_resource type="Script" uid="uid://dbogn8qoh51ta" path="res://Script/NewPianoScript/PianoManager.cs" id="1_qdus8"]
+[ext_resource type="PackedScene" uid="uid://b4007or5gk7jf" path="res://Scenes/Piano/keyboards.tscn" id="2_v6hsj"]
+[ext_resource type="Script" uid="uid://cps5fht8spdjw" path="res://Script/NewPianoScript/PianoSoundPlayers/StupidPianoSoundPlayer.cs" id="3_eambc"]
+[ext_resource type="Script" uid="uid://c0vfovy8roihb" path="res://Script/NewPianoScript/TestingAndGenerating/EqualizerControllerForPiano.cs" id="4_eambc"]
+
+[node name="Piano" type="Control" unique_id=909658743 node_paths=PackedStringArray("Keyboards", "SoundPlayer")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qdus8")
+Keyboards = NodePath("Keyboards")
+SoundPlayer = NodePath("Sounding")
+
+[node name="Keyboards" parent="." unique_id=2139113674 instance=ExtResource("2_v6hsj")]
+layout_mode = 1
+
+[node name="Sounding" type="Node" parent="." unique_id=1854493329]
+script = ExtResource("3_eambc")
+relevantBus = &"PianoAudioBus"
+
+[node name="Controller for piano" type="Control" parent="." unique_id=611358921 node_paths=PackedStringArray("soundPlayer")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("4_eambc")
+soundPlayer = NodePath("../Sounding")

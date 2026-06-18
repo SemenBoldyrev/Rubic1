@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "A:\\Godot games\\rubic1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\ui\\defaultdialcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\ui\\defaultdialcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\managers\\managerbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\managers\\managerbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playersit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playersit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playeridle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playeridle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playerlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playerlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playerplaystance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playerplaystance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\dialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\dialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\ui\\defaultdialcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\ui\\defaultdialcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\dialtoparts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\dialtoparts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\dialcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\interfaces\\idialinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\managers\\managerbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\managers\\managerbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\interactionareascript\\interactions\\testinteraction2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\interactionareascript\\interactions\\testinteraction2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\interfaces\\idialcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\interfaces\\idialcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\dialtoparts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\dialtoparts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\datasets\\dialpartdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 248,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +86,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "PlayerSit.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerSit.cs",
+              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerSit.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerSit.cs",
+              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerSit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T14:24:37.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerPlayStance.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerPlayStance.cs",
+              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerPlayStance.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerPlayStance.cs",
+              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerPlayStance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T14:24:35.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerLog.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerLog.cs",
+              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerLog.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerLog.cs",
+              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T14:24:34.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerIdle.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerIdle.cs",
+              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerIdle.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerIdle.cs",
+              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerIdle.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAD4vxEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-03T14:20:11.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "JustTextDialContainer.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\UI\\JustTextDialContainer.cs",
               "RelativeDocumentMoniker": "Script\\DialogScript\\UI\\JustTextDialContainer.cs",
@@ -78,25 +143,23 @@
               "RelativeToolTip": "Script\\DialogScript\\UI\\JustTextDialContainer.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T22:08:44.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-23T22:08:44.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "DefaultDialContainer.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\UI\\DefaultDialContainer.cs",
               "RelativeDocumentMoniker": "Script\\DialogScript\\UI\\DefaultDialContainer.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\UI\\DefaultDialContainer.cs*",
-              "RelativeToolTip": "Script\\DialogScript\\UI\\DefaultDialContainer.cs*",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAywI8AAAAAAAAAAAAAAA==",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\UI\\DefaultDialContainer.cs",
+              "RelativeToolTip": "Script\\DialogScript\\UI\\DefaultDialContainer.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA3wFUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T21:37:11.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T21:37:11.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "TestInteraction.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\Interactions\\TestInteraction.cs",
               "RelativeDocumentMoniker": "Script\\InteractionAreaScript\\Interactions\\TestInteraction.cs",
@@ -108,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "DialCollection.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DialCollection.cs",
               "RelativeDocumentMoniker": "Script\\DialogScript\\DialCollection.cs",
@@ -116,12 +179,11 @@
               "RelativeToolTip": "Script\\DialogScript\\DialCollection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T20:34:56.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T20:34:56.759Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "DialToParts.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DialToParts.cs",
               "RelativeDocumentMoniker": "Script\\DialogScript\\DialToParts.cs",
@@ -133,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "DialPartData.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DataSets\\DialPartData.cs",
               "RelativeDocumentMoniker": "Script\\DialogScript\\DataSets\\DialPartData.cs",
@@ -145,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "IDialToParts.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\Interfaces\\IDialToParts.cs",
               "RelativeDocumentMoniker": "Script\\DialogScript\\Interfaces\\IDialToParts.cs",
@@ -153,12 +215,11 @@
               "RelativeToolTip": "Script\\DialogScript\\Interfaces\\IDialToParts.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:59:48.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T19:59:48.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "IDialInterface.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\Interfaces\\IDialInterface.cs",
               "RelativeDocumentMoniker": "Script\\DialogScript\\Interfaces\\IDialInterface.cs",
@@ -166,12 +227,11 @@
               "RelativeToolTip": "Script\\DialogScript\\Interfaces\\IDialInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:59:42.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T19:59:42.378Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "IDialCollection.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\Interfaces\\IDialCollection.cs",
               "RelativeDocumentMoniker": "Script\\DialogScript\\Interfaces\\IDialCollection.cs",
@@ -183,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "IDialManager.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\Interfaces\\IDialManager.cs",
               "RelativeDocumentMoniker": "Script\\DialogScript\\Interfaces\\IDialManager.cs",
@@ -191,37 +251,36 @@
               "RelativeToolTip": "Script\\DialogScript\\Interfaces\\IDialManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:58:11.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T19:58:11.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "DialManager.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DialManager.cs",
               "RelativeDocumentMoniker": "Script\\DialogScript\\DialManager.cs",
               "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DialManager.cs",
               "RelativeToolTip": "Script\\DialogScript\\DialManager.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAADwv2AAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T23:40:07.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T23:40:07.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "ManagerBus.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Managers\\ManagerBus.cs",
               "RelativeDocumentMoniker": "Script\\Managers\\ManagerBus.cs",
               "ToolTip": "A:\\Godot games\\rubic1\\Script\\Managers\\ManagerBus.cs",
               "RelativeToolTip": "Script\\Managers\\ManagerBus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T23:38:37.777Z"
+              "WhenOpened": "2026-05-12T23:38:37.777Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "TestInteraction2.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\Interactions\\TestInteraction2.cs",
               "RelativeDocumentMoniker": "Script\\InteractionAreaScript\\Interactions\\TestInteraction2.cs",

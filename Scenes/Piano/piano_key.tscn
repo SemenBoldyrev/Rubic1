@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dfvc0uri4h5ph"]
+
+[node name="PianoKey" type="Button" unique_id=898854212]
+custom_minimum_size = Vector2(25, 100)
+offset_right = 8.0
+offset_bottom = 8.0
