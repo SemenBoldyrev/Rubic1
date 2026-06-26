@@ -11,7 +11,7 @@ namespace Rubic1.Script.Inventory
 {
     public class InventorySegmentOrchestrator : IInventorySegmentsOrchestrator
     {
-        private List<InventorySegment> segments;
+        private List<InventorySegment> segments = new();
         public List<InventorySegment> Segments => segments;
 
         public void AddSegment(InventorySegment segment)
