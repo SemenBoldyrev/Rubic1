@@ -1,0 +1,47 @@
+[gd_resource type="Resource" script_class="InstrumentRes" format=3 uid="uid://dupimg6c7pjxs"]
+
+[ext_resource type="Script" uid="uid://cih5b048k0ptq" path="res://Script/NewPianoScript/Data/InstrumentRes.cs" id="1_6bgx7"]
+[ext_resource type="Curve" uid="uid://bnkwxs3q3h55w" path="res://Resources/CurvePresets/StandartPedal.tres" id="2_t0nc2"]
+[ext_resource type="Script" uid="uid://bqqtpni3hdl3v" path="res://Script/NewPianoScript/Data/SoundDataScript/AltData.cs" id="3_2uh4s"]
+[ext_resource type="Curve" uid="uid://mm3qurqq5eee" path="res://Resources/CurvePresets/StandartVibrato.tres" id="4_jeaib"]
+[ext_resource type="Curve" uid="uid://bsf0au5b5x37f" path="res://Resources/CurvePresets/TriangleWave.tres" id="5_t0nc2"]
+[ext_resource type="Curve" uid="uid://dlrrfgupmarb6" path="res://Resources/CurvePresets/BasicEnvelopCurveA.tres" id="6_4nlrw"]
+[ext_resource type="Curve" uid="uid://cfdh8l6y1i4o1" path="res://Resources/CurvePresets/BasicEnvelopCurveB.tres" id="7_ey7pb"]
+[ext_resource type="Script" uid="uid://dcmbg3260hxty" path="res://Script/NewPianoScript/Data/SoundDataScript/EnvelopSoundData.cs" id="8_tvi0x"]
+[ext_resource type="Curve" uid="uid://bu8aquftl8v6m" path="res://Resources/CurvePresets/Blank.tres" id="9_ljj0i"]
+[ext_resource type="Script" uid="uid://cfiqfmrvgkk57" path="res://Script/NewPianoScript/Data/SoundDataScript/SoundData.cs" id="10_jftbh"]
+
+[sub_resource type="Resource" id="Resource_uufms"]
+script = ExtResource("3_2uh4s")
+pedalEnvelopB = ExtResource("2_t0nc2")
+vibratoLFO = ExtResource("4_jeaib")
+metadata/_custom_type_script = "uid://bqqtpni3hdl3v"
+
+[sub_resource type="Resource" id="Resource_sr81r"]
+script = ExtResource("8_tvi0x")
+envelopA = ExtResource("6_4nlrw")
+envelopB = ExtResource("7_ey7pb")
+metadata/_custom_type_script = "uid://dcmbg3260hxty"
+
+[sub_resource type="Curve" id="Curve_vn6ei"]
+_limits = [-5.0, 5.0, 0.0, 1.0]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.25, -1), 0.0, 0.0, 0, 0, Vector2(0.75, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[sub_resource type="Resource" id="Resource_ukg1t"]
+script = ExtResource("10_jftbh")
+alternativeType = 1
+playbackType = 2
+ascelerator = ExtResource("5_t0nc2")
+pitchLFO = ExtResource("9_ljj0i")
+volumeLFO = SubResource("Curve_vn6ei")
+envelopData = SubResource("Resource_sr81r")
+altSoundData = SubResource("Resource_uufms")
+metadata/_custom_type_script = "uid://cfiqfmrvgkk57"
+
+[resource]
+script = ExtResource("1_6bgx7")
+name = "Some synth"
+instrumentType = 1
+soundData = SubResource("Resource_ukg1t")
+metadata/_custom_type_script = "uid://cih5b048k0ptq"

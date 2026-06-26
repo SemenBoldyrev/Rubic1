@@ -12,8 +12,8 @@ namespace Rubic1.Script.NewPianoScript.Interfaces
         public event Action<NoteData> NotePlayed;
         public event Action<NoteData> NoteStopped;
 
-        public event Action SessionStarted;
-        public event Action SessionEnded;
+        public event Action<InstrumentRes> SessionStarted;
+        public event Action<InstrumentRes> SessionEnded;
 
         public bool Active { get; }
 

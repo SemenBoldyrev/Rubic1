@@ -20,6 +20,8 @@ namespace Rubic1.Script.StateMachineScript.StateNodes.Player
 
         [Export] Timer DanceAnimSpanTimer;
 
+        [Export] InstrumentRes relativeInst;
+
         private bool canPlay = false;
 
         public override event Action<StateNode> transition;
@@ -27,10 +29,11 @@ namespace Rubic1.Script.StateMachineScript.StateNodes.Player
 
         private bool finishing = false;
 
-        private InstrumentRes instrument = GD.Load<InstrumentRes>("res://Resources/Instruments/TestInstrument.tres");
+        private InstrumentRes instrument;
 
         public override void Enter()
         {
+            instrument = relativeInst;
             PlayerAnimationPlayer.AnimationFinished += Finish;
             // what?
             if (canPlay) PlayerAnimationPlayer.Play(PlayerAnimationNames.FLUTE_STAY);
@@ -42,7 +45,7 @@ namespace Rubic1.Script.StateMachineScript.StateNodes.Player
         private void StopDancing()
         {
             //in case [finishing]
-            if (ManagerBus.PianoManager.PianoKeyboard.AnyKeyPressed || finishing) return;
+            if (ManagerBus.NoteSubscription.AnyKeyPressed || finishing) return;
             PlayerAnimationPlayer.Play(PlayerAnimationNames.FLUTE_STAY);
         }
 
@@ -92,7 +95,7 @@ namespace Rubic1.Script.StateMachineScript.StateNodes.Player
         public override void Update(double delta)
         {
             if (!canPlay) return;
-            bool pianoIsPlaying = ManagerBus.PianoManager.PianoKeyboard.AnyKeyPressed;
+            bool pianoIsPlaying = ManagerBus.NoteSubscription.AnyKeyPressed;
 
             if (pianoIsPlaying)
             {

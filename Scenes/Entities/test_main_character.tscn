@@ -5,12 +5,14 @@
 [ext_resource type="Script" uid="uid://c0s2a8pa15gkq" path="res://Script/StateMachineScript/StateNodes/Player/PlayerIdle.cs" id="2_f23rs"]
 [ext_resource type="Script" uid="uid://1gtbr2qwt3of" path="res://Script/StateMachineScript/StateNodes/Player/PlayerMovement.cs" id="3_uw0lr"]
 [ext_resource type="PackedScene" uid="uid://boj5x5f31w87m" path="res://Scenes/Other/interaction_area.tscn" id="4_4y7sa"]
-[ext_resource type="PackedScene" uid="uid://cm6ascm8dmyp4" path="res://Scenes/Other/player_ui.tscn" id="4_tuvht"]
+[ext_resource type="PackedScene" uid="uid://c4skjebj4v7py" path="res://Scenes/Managers/sound_subscription.tscn" id="4_cl2sk"]
+[ext_resource type="PackedScene" uid="uid://dtytmiabb4j5u" path="res://Scenes/GameUi/MainUi.tscn" id="4_tuvht"]
 [ext_resource type="Script" uid="uid://ddtedefyeepbi" path="res://Script/Connectors/SpriteConnector.cs" id="6_cl2sk"]
 [ext_resource type="Script" uid="uid://bdkhaafthhv7j" path="res://Script/EntitieScript/CharacterController.cs" id="7_0o1cg"]
 [ext_resource type="Script" uid="uid://dv3umj68cfhkp" path="res://Script/StateMachineScript/StateNodes/Player/PlayerPlayStance.cs" id="7_hqjkk"]
 [ext_resource type="Script" uid="uid://b7y2bcydx5jcl" path="res://Script/StateMachineScript/StateNodes/Player/PlayerLog.cs" id="8_8s080"]
 [ext_resource type="Script" uid="uid://cxm53jogwj8ii" path="res://Script/StateMachineScript/StateNodes/Player/PlayerSit.cs" id="9_f23rs"]
+[ext_resource type="Resource" uid="uid://dupimg6c7pjxs" path="res://Resources/Instruments/SecondInstrument.tres" id="10_0o1cg"]
 [ext_resource type="Script" uid="uid://3rb2bujkbdr4" path="res://Script/StateMachineScript/StateNodes/Player/SitSleepState.cs" id="10_uw0lr"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_txde3"]
@@ -264,9 +266,7 @@ zoom = Vector2(4, 4)
 position_smoothing_enabled = true
 position_smoothing_speed = 3.0
 
-[node name="CanvasLayer" type="CanvasLayer" parent="CharacterController/Camera" unique_id=1877154376]
-
-[node name="PlayerUi" parent="CharacterController/Camera/CanvasLayer" unique_id=389871876 instance=ExtResource("4_tuvht")]
+[node name="MainUi" parent="CharacterController/Camera" unique_id=1166874803 instance=ExtResource("4_tuvht")]
 
 [node name="InteractionArea" parent="CharacterController" unique_id=214728608 instance=ExtResource("4_4y7sa")]
 
@@ -308,6 +308,7 @@ script = ExtResource("7_hqjkk")
 PlayerAnimationPlayer = NodePath("../../AnimationPlayer")
 IdleState = NodePath("../IdlePlayerState")
 DanceAnimSpanTimer = NodePath("DancingSpanTimer")
+relativeInst = ExtResource("10_0o1cg")
 
 [node name="DancingSpanTimer" type="Timer" parent="StateMachine/MusicStanceState" unique_id=735864573]
 wait_time = 0.8
@@ -340,3 +341,5 @@ IdleState = NodePath("../IdlePlayerState")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=950412104]
 libraries/ = SubResource("AnimationLibrary_4y7sa")
+
+[node name="SoundSubscription" parent="." unique_id=2063465338 instance=ExtResource("4_cl2sk")]

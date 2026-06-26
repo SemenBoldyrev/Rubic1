@@ -3,7 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://twgbkt0ah4xc" path="res://Assets/Sprites/Character2D/SheepSpritesheet_2.png" id="1_71pys"]
 [ext_resource type="PackedScene" uid="uid://bcqysyb7xt4ke" path="res://Scenes/Entities/test_main_character.tscn" id="2_qxu0t"]
 [ext_resource type="Texture2D" uid="uid://dnq0s8jqt2gtp" path="res://Assets/Sprites/Character2D/Bee_spritesheetTSTA.png" id="3_1qub6"]
-[ext_resource type="PackedScene" uid="uid://dtytmiabb4j5u" path="res://Scenes/GameUi/MainUi.tscn" id="3_stwnp"]
 [ext_resource type="PackedScene" uid="uid://dkc0mc242p4e3" path="res://Scenes/Other/interaction_action_area.tscn" id="4_aw3vq"]
 [ext_resource type="Script" uid="uid://b63pqejf3cpmg" path="res://Script/InteractionAreaScript/Interactions/TestInteraction2.cs" id="5_xwxo7"]
 [ext_resource type="Script" uid="uid://d12ckal6iccjq" path="res://Script/InteractionAreaScript/Interactions/TestInteraction.cs" id="5_y3pib"]
@@ -44,8 +43,6 @@ texture = ExtResource("1_71pys")
 
 [node name="TestMainCharacter" parent="." unique_id=129582626 instance=ExtResource("2_qxu0t")]
 position = Vector2(474, 311)
-
-[node name="MainUi" parent="TestMainCharacter" unique_id=1166874803 instance=ExtResource("3_stwnp")]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1109549625]
 position = Vector2(404, 298)

@@ -1,4 +1,4 @@
-using Godot;
+ using Godot;
 using Rubic1.Script.Connectors;
 using Rubic1.Script.InteractionAreaScript.Interfaces;
 using Rubic1.Script.Managers;

@@ -3,124 +3,56 @@
   "WorkspaceRootPath": "A:\\Godot games\\rubic1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playerplaystance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playerplaystance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\data\\inventorysegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\data\\inventorysegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\pianokeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\pianokeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\data\\equipmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\data\\equipmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\pianosoundplayers\\generativepianosoundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\pianosoundplayers\\generativepianosoundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\inventorysegmentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\inventorysegmentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\pianosoundplayers\\pianosoundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\pianosoundplayers\\pianosoundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\pianomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\pianomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\pianosoundplayers\\stupidpianosoundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\pianosoundplayers\\stupidpianosoundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\interfaces\\ipianosoundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\interfaces\\ipianosoundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\keyboards\\standartkeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\keyboards\\standartkeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\nodes\\pianokey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\nodes\\pianokey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\interfaces\\ipianopiano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\interfaces\\ipianopiano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\interfaces\\ipianokeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\interfaces\\ipianokeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\interfaces\\ipianomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\interfaces\\ipianomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\interactionareascript\\interactions\\testinteraction2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\interactionareascript\\interactions\\testinteraction2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\standartkeyinterpretee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\standartkeyinterpretee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\newpianoscript\\testingandgenerating\\equalizercontrollerforpiano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\newpianoscript\\testingandgenerating\\equalizercontrollerforpiano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\managers\\managerbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\managers\\managerbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playersit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playersit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\inventoryequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\inventoryequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playeridle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playeridle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\interfaces\\iinventoryequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\interfaces\\iinventoryequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\statemachinescript\\statenodes\\player\\playerlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\statemachinescript\\statenodes\\player\\playerlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\interfaces\\iinventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\interfaces\\iinventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\dialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\dialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\interfaces\\iinventorysegmentsorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\interfaces\\iinventorysegmentsorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\ui\\defaultdialcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\ui\\defaultdialcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\interfaces\\iitemfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\interfaces\\iitemfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\dialtoparts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\dialtoparts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\interfaces\\iitemactionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\interfaces\\iitemactionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\dialcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\dialcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\resources\\itemres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\resources\\itemres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\interfaces\\idialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\interfaces\\idialmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\interfaces\\idialtoparts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\interfaces\\idialtoparts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\ui\\justtextdialcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\ui\\justtextdialcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\interfaces\\idialinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\interfaces\\idialinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\interactionareascript\\interactions\\testinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\interactionareascript\\interactions\\testinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\interfaces\\idialcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\interfaces\\idialcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\dialogscript\\datasets\\dialpartdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\dialogscript\\datasets\\dialpartdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\data\\itemcategoriesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\data\\itemcategoriesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,123 +62,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 248,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GenerativePianoSoundPlayer.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\PianoSoundPlayers\\GenerativePianoSoundPlayer.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\PianoSoundPlayers\\GenerativePianoSoundPlayer.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\PianoSoundPlayers\\GenerativePianoSoundPlayer.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\PianoSoundPlayers\\GenerativePianoSoundPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABVAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ManagerBus.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Managers\\ManagerBus.cs",
+              "RelativeDocumentMoniker": "Script\\Managers\\ManagerBus.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Managers\\ManagerBus.cs",
+              "RelativeToolTip": "Script\\Managers\\ManagerBus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T22:06:35.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PianoSoundPlayer.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\PianoSoundPlayers\\PianoSoundPlayer.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\PianoSoundPlayers\\PianoSoundPlayer.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\PianoSoundPlayers\\PianoSoundPlayer.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\PianoSoundPlayers\\PianoSoundPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T22:06:09.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PianoKey.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\Nodes\\PianoKey.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\Nodes\\PianoKey.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\Nodes\\PianoKey.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\Nodes\\PianoKey.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T22:01:20.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IPianoKeyboard.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\Interfaces\\IPianoKeyboard.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\Interfaces\\IPianoKeyboard.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\Interfaces\\IPianoKeyboard.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\Interfaces\\IPianoKeyboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T21:32:47.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StandartKeyboard.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\Keyboards\\StandartKeyboard.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\Keyboards\\StandartKeyboard.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\Keyboards\\StandartKeyboard.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\Keyboards\\StandartKeyboard.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEIAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T21:31:58.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IPianoPiano.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\Interfaces\\IPianoPiano.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\Interfaces\\IPianoPiano.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\Interfaces\\IPianoPiano.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\Interfaces\\IPianoPiano.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T21:29:41.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IPianoSoundPlayer.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\Interfaces\\IPianoSoundPlayer.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\Interfaces\\IPianoSoundPlayer.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\Interfaces\\IPianoSoundPlayer.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\Interfaces\\IPianoSoundPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T21:29:29.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IPianoManager.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\Interfaces\\IPianoManager.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\Interfaces\\IPianoManager.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\Interfaces\\IPianoManager.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\Interfaces\\IPianoManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T21:26:20.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PianoKeyboard.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\PianoKeyboard.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\PianoKeyboard.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\PianoKeyboard.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\PianoKeyboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T21:21:01.023Z",
+              "WhenOpened": "2026-06-26T22:43:02.095Z",
               "EditorCaption": ""
             },
             {
@@ -255,261 +83,158 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\InventoryManager.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\InventoryManager.cs",
+              "RelativeToolTip": "Script\\Inventory\\InventoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T21:58:19.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventorySegmentOrchestrator.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\InventorySegmentOrchestrator.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\InventorySegmentOrchestrator.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\InventorySegmentOrchestrator.cs",
+              "RelativeToolTip": "Script\\Inventory\\InventorySegmentOrchestrator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T21:39:53.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "StupidPianoSoundPlayer.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\PianoSoundPlayers\\StupidPianoSoundPlayer.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\PianoSoundPlayers\\StupidPianoSoundPlayer.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\PianoSoundPlayers\\StupidPianoSoundPlayer.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\PianoSoundPlayers\\StupidPianoSoundPlayer.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwGAAAAAuAAAAAAAAAA==",
+              "Title": "InventoryEquipment.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\InventoryEquipment.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\InventoryEquipment.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\InventoryEquipment.cs",
+              "RelativeToolTip": "Script\\Inventory\\InventoryEquipment.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwD4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T21:16:44.27Z",
+              "WhenOpened": "2026-06-26T21:16:12.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StandartKeyInterpretee.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\StandartKeyInterpretee.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\StandartKeyInterpretee.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\StandartKeyInterpretee.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\StandartKeyInterpretee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAALAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IInventoryManager.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IInventoryManager.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\Interfaces\\IInventoryManager.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IInventoryManager.cs",
+              "RelativeToolTip": "Script\\Inventory\\Interfaces\\IInventoryManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T21:04:58.123Z",
+              "WhenOpened": "2026-06-26T21:04:27.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EqualizerControllerForPiano.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\TestingAndGenerating\\EqualizerControllerForPiano.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\TestingAndGenerating\\EqualizerControllerForPiano.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\TestingAndGenerating\\EqualizerControllerForPiano.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\TestingAndGenerating\\EqualizerControllerForPiano.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EquipmentData.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Data\\EquipmentData.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\Data\\EquipmentData.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\Data\\EquipmentData.cs",
+              "RelativeToolTip": "Script\\Inventory\\Data\\EquipmentData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T21:04:35.29Z",
+              "WhenOpened": "2026-06-26T20:50:13.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PianoManager.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\PianoManager.cs",
-              "RelativeDocumentMoniker": "Script\\NewPianoScript\\PianoManager.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\NewPianoScript\\PianoManager.cs",
-              "RelativeToolTip": "Script\\NewPianoScript\\PianoManager.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwD0AAAAnAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IInventoryEquipment.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IInventoryEquipment.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\Interfaces\\IInventoryEquipment.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IInventoryEquipment.cs",
+              "RelativeToolTip": "Script\\Inventory\\Interfaces\\IInventoryEquipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T21:02:26.556Z",
+              "WhenOpened": "2026-06-26T20:48:45.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PlayerSit.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerSit.cs",
-              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerSit.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerSit.cs",
-              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerSit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "IInventorySegmentsOrchestrator.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IInventorySegmentsOrchestrator.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\Interfaces\\IInventorySegmentsOrchestrator.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IInventorySegmentsOrchestrator.cs",
+              "RelativeToolTip": "Script\\Inventory\\Interfaces\\IInventorySegmentsOrchestrator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T14:24:37.87Z"
+              "WhenOpened": "2026-06-26T20:43:56.361Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerPlayStance.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerPlayStance.cs",
-              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerPlayStance.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerPlayStance.cs",
-              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerPlayStance.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAmwFkAAAAJAAAAAAAAAA==",
+              "Title": "InventorySegment.cs",
+              "DocumentMoniker": "A:\\GODOT GAMES\\RUBIC1\\Script\\Inventory\\Data\\InventorySegment.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\Data\\InventorySegment.cs",
+              "ToolTip": "A:\\GODOT GAMES\\RUBIC1\\Script\\Inventory\\Data\\InventorySegment.cs",
+              "RelativeToolTip": "Script\\Inventory\\Data\\InventorySegment.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswBQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T14:24:35.225Z",
+              "WhenOpened": "2026-06-26T20:26:40.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PlayerLog.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerLog.cs",
-              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerLog.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerLog.cs",
-              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "IItemFeedback.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IItemFeedback.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\Interfaces\\IItemFeedback.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IItemFeedback.cs",
+              "RelativeToolTip": "Script\\Inventory\\Interfaces\\IItemFeedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T14:24:34.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PlayerIdle.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerIdle.cs",
-              "RelativeDocumentMoniker": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerIdle.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\StateMachineScript\\StateNodes\\Player\\PlayerIdle.cs",
-              "RelativeToolTip": "Script\\StateMachineScript\\StateNodes\\Player\\PlayerIdle.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAD4vxEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T14:20:11.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "JustTextDialContainer.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\UI\\JustTextDialContainer.cs",
-              "RelativeDocumentMoniker": "Script\\DialogScript\\UI\\JustTextDialContainer.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\UI\\JustTextDialContainer.cs",
-              "RelativeToolTip": "Script\\DialogScript\\UI\\JustTextDialContainer.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-23T22:08:44.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DefaultDialContainer.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\UI\\DefaultDialContainer.cs",
-              "RelativeDocumentMoniker": "Script\\DialogScript\\UI\\DefaultDialContainer.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\UI\\DefaultDialContainer.cs",
-              "RelativeToolTip": "Script\\DialogScript\\UI\\DefaultDialContainer.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAA3wFUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T21:37:11.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "TestInteraction.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\Interactions\\TestInteraction.cs",
-              "RelativeDocumentMoniker": "Script\\InteractionAreaScript\\Interactions\\TestInteraction.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\Interactions\\TestInteraction.cs",
-              "RelativeToolTip": "Script\\InteractionAreaScript\\Interactions\\TestInteraction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T20:48:38.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DialCollection.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DialCollection.cs",
-              "RelativeDocumentMoniker": "Script\\DialogScript\\DialCollection.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DialCollection.cs",
-              "RelativeToolTip": "Script\\DialogScript\\DialCollection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T20:34:56.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DialToParts.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DialToParts.cs",
-              "RelativeDocumentMoniker": "Script\\DialogScript\\DialToParts.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DialToParts.cs",
-              "RelativeToolTip": "Script\\DialogScript\\DialToParts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T20:04:17.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "DialPartData.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DataSets\\DialPartData.cs",
-              "RelativeDocumentMoniker": "Script\\DialogScript\\DataSets\\DialPartData.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DataSets\\DialPartData.cs",
-              "RelativeToolTip": "Script\\DialogScript\\DataSets\\DialPartData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:59:51.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IDialToParts.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\Interfaces\\IDialToParts.cs",
-              "RelativeDocumentMoniker": "Script\\DialogScript\\Interfaces\\IDialToParts.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\Interfaces\\IDialToParts.cs",
-              "RelativeToolTip": "Script\\DialogScript\\Interfaces\\IDialToParts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:59:48.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IDialInterface.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\Interfaces\\IDialInterface.cs",
-              "RelativeDocumentMoniker": "Script\\DialogScript\\Interfaces\\IDialInterface.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\Interfaces\\IDialInterface.cs",
-              "RelativeToolTip": "Script\\DialogScript\\Interfaces\\IDialInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:59:42.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IDialCollection.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\Interfaces\\IDialCollection.cs",
-              "RelativeDocumentMoniker": "Script\\DialogScript\\Interfaces\\IDialCollection.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\Interfaces\\IDialCollection.cs",
-              "RelativeToolTip": "Script\\DialogScript\\Interfaces\\IDialCollection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:59:22.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IDialManager.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\Interfaces\\IDialManager.cs",
-              "RelativeDocumentMoniker": "Script\\DialogScript\\Interfaces\\IDialManager.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\Interfaces\\IDialManager.cs",
-              "RelativeToolTip": "Script\\DialogScript\\Interfaces\\IDialManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T19:58:11.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DialManager.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DialManager.cs",
-              "RelativeDocumentMoniker": "Script\\DialogScript\\DialManager.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\DialogScript\\DialManager.cs",
-              "RelativeToolTip": "Script\\DialogScript\\DialManager.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAswFkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T23:40:07.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ManagerBus.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Managers\\ManagerBus.cs",
-              "RelativeDocumentMoniker": "Script\\Managers\\ManagerBus.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Managers\\ManagerBus.cs",
-              "RelativeToolTip": "Script\\Managers\\ManagerBus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T23:38:37.777Z",
+              "WhenOpened": "2026-06-26T16:39:39.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "TestInteraction2.cs",
-              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\Interactions\\TestInteraction2.cs",
-              "RelativeDocumentMoniker": "Script\\InteractionAreaScript\\Interactions\\TestInteraction2.cs",
-              "ToolTip": "A:\\Godot games\\rubic1\\Script\\InteractionAreaScript\\Interactions\\TestInteraction2.cs",
-              "RelativeToolTip": "Script\\InteractionAreaScript\\Interactions\\TestInteraction2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ItemCategoriesEnum.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Data\\ItemCategoriesEnum.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\Data\\ItemCategoriesEnum.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\Data\\ItemCategoriesEnum.cs",
+              "RelativeToolTip": "Script\\Inventory\\Data\\ItemCategoriesEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T00:15:06.651Z",
+              "WhenOpened": "2026-06-26T16:35:34.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IItemActionScript.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IItemActionScript.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\Interfaces\\IItemActionScript.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IItemActionScript.cs",
+              "RelativeToolTip": "Script\\Inventory\\Interfaces\\IItemActionScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T16:30:24.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ItemRes.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Resources\\ItemRes.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\Resources\\ItemRes.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\Resources\\ItemRes.cs",
+              "RelativeToolTip": "Script\\Inventory\\Resources\\ItemRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T16:22:22.273Z",
               "EditorCaption": ""
             }
           ]

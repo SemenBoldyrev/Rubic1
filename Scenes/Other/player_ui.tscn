@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cm6ascm8dmyp4"]
 
 [ext_resource type="PackedScene" uid="uid://l3cv4sea57gk" path="res://Scenes/Managers/dialog_manager.tscn" id="1_vl46v"]
+[ext_resource type="PackedScene" uid="uid://cgrr50fxmu68c" path="res://Scenes/GameUi/sound_shower.tscn" id="2_olhl7"]
 
 [node name="PlayerUi" type="Control" unique_id=389871876]
 layout_mode = 3
@@ -11,4 +12,7 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [node name="DialogManager" parent="." unique_id=788445342 instance=ExtResource("1_vl46v")]
+layout_mode = 1
+
+[node name="SoundShower" parent="." unique_id=320625054 instance=ExtResource("2_olhl7")]
 layout_mode = 1
