@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://dhor4qy6aq3ej"]
+
+[ext_resource type="Texture2D" uid="uid://bkybth3d4b1ib" path="res://Assets/Sprites/Emotions/Symbols1.png" id="1_s1fn8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cnpws"]
+atlas = ExtResource("1_s1fn8")
+region = Rect2(4, 1, 20, 20)
+
+[node name="InventoryItemRepresentor" type="Control" unique_id=1341775011]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=723191484]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1793147545]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=1321850404]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="TextureRect2" type="TextureRect" parent="VBoxContainer/HBoxContainer" unique_id=1380961937]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_cnpws")
+
+[node name="Faker1" type="TextureRect" parent="VBoxContainer/HBoxContainer" unique_id=1952566877]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Faker2" type="TextureRect" parent="VBoxContainer" unique_id=1978492598]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button" type="Button" parent="." unique_id=728134766]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+flat = true

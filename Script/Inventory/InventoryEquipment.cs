@@ -33,6 +33,11 @@ namespace Rubic1.Script.Inventory
             return true;
         }
 
+        public ItemRes GetItemByCategory(ItemCategoriesEnum category)
+        {
+            return equipmentSlots.Find(s => s.Category == category).RespectiveRes;
+        }
+
         public bool ItemIsEquiped(ItemRes item)
         {
             return equipmentSlots.Where(s => s.RespectiveRes == item).Count() > 0;

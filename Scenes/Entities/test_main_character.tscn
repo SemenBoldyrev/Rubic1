@@ -12,7 +12,7 @@
 [ext_resource type="Script" uid="uid://dv3umj68cfhkp" path="res://Script/StateMachineScript/StateNodes/Player/PlayerPlayStance.cs" id="7_hqjkk"]
 [ext_resource type="Script" uid="uid://b7y2bcydx5jcl" path="res://Script/StateMachineScript/StateNodes/Player/PlayerLog.cs" id="8_8s080"]
 [ext_resource type="Script" uid="uid://cxm53jogwj8ii" path="res://Script/StateMachineScript/StateNodes/Player/PlayerSit.cs" id="9_f23rs"]
-[ext_resource type="Resource" uid="uid://dupimg6c7pjxs" path="res://Resources/Instruments/SecondInstrument.tres" id="10_0o1cg"]
+[ext_resource type="Resource" uid="uid://l2e7cvv1njie" path="res://Resources/Instruments/TestInstrument.tres" id="10_0o1cg"]
 [ext_resource type="Script" uid="uid://3rb2bujkbdr4" path="res://Script/StateMachineScript/StateNodes/Player/SitSleepState.cs" id="10_uw0lr"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_txde3"]

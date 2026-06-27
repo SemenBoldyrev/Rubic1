@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "A:\\Godot games\\rubic1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\inventorysegmentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\inventorysegmentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\ui\\inventoryuiitemrepresentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\ui\\inventoryuiitemrepresentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\ui\\interfaces\\iinventoryuiitemrepresentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\ui\\interfaces\\iinventoryuiitemrepresentor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\inventoryequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\inventoryequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\interfaces\\iinventoryequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\interfaces\\iinventoryequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\resources\\itemres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\resources\\itemres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\data\\itemcategoriesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\data\\itemcategoriesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\data\\inventorysegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +35,20 @@
       "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\data\\equipmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\managers\\managerbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\managers\\managerbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\interfaces\\iinventoryequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\interfaces\\iinventoryequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\managers\\signalbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\managers\\signalbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\inventorysegmentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\inventorysegmentorchestrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\interfaces\\iinventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,14 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\interfaces\\iitemactionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\interfaces\\iitemactionscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\resources\\itemres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\resources\\itemres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|a:\\godot games\\rubic1\\script\\inventory\\data\\itemcategoriesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C20C64-147C-418F-AF47-21DAF3A73CCC}|Rubic1.csproj|solutionrelative:script\\inventory\\data\\itemcategoriesenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 248,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,31 +82,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "IInventoryUiItemRepresentor.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\UI\\Interfaces\\IInventoryUiItemRepresentor.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\UI\\Interfaces\\IInventoryUiItemRepresentor.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\UI\\Interfaces\\IInventoryUiItemRepresentor.cs",
+              "RelativeToolTip": "Script\\Inventory\\UI\\Interfaces\\IInventoryUiItemRepresentor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T22:50:49.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InventoryUiItemRepresentor.cs",
+              "DocumentMoniker": "A:\\GODOT GAMES\\RUBIC1\\Script\\Inventory\\UI\\InventoryUiItemRepresentor.cs",
+              "RelativeDocumentMoniker": "Script\\Inventory\\UI\\InventoryUiItemRepresentor.cs",
+              "ToolTip": "A:\\GODOT GAMES\\RUBIC1\\Script\\Inventory\\UI\\InventoryUiItemRepresentor.cs",
+              "RelativeToolTip": "Script\\Inventory\\UI\\InventoryUiItemRepresentor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T22:48:12.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SignalBus.cs",
+              "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Managers\\SignalBus.cs",
+              "RelativeDocumentMoniker": "Script\\Managers\\SignalBus.cs",
+              "ToolTip": "A:\\Godot games\\rubic1\\Script\\Managers\\SignalBus.cs",
+              "RelativeToolTip": "Script\\Managers\\SignalBus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T22:44:27.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ManagerBus.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Managers\\ManagerBus.cs",
               "RelativeDocumentMoniker": "Script\\Managers\\ManagerBus.cs",
               "ToolTip": "A:\\Godot games\\rubic1\\Script\\Managers\\ManagerBus.cs",
               "RelativeToolTip": "Script\\Managers\\ManagerBus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAB/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T22:43:02.095Z"
+              "WhenOpened": "2026-06-26T22:43:02.095Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "InventoryManager.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\InventoryManager.cs",
               "RelativeDocumentMoniker": "Script\\Inventory\\InventoryManager.cs",
               "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\InventoryManager.cs",
               "RelativeToolTip": "Script\\Inventory\\InventoryManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T21:58:19.808Z"
+              "WhenOpened": "2026-06-26T21:58:19.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "InventorySegmentOrchestrator.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\InventorySegmentOrchestrator.cs",
               "RelativeDocumentMoniker": "Script\\Inventory\\InventorySegmentOrchestrator.cs",
@@ -107,20 +160,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InventoryEquipment.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\InventoryEquipment.cs",
               "RelativeDocumentMoniker": "Script\\Inventory\\InventoryEquipment.cs",
               "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\InventoryEquipment.cs",
               "RelativeToolTip": "Script\\Inventory\\InventoryEquipment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-26T21:16:12.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "IInventoryManager.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IInventoryManager.cs",
               "RelativeDocumentMoniker": "Script\\Inventory\\Interfaces\\IInventoryManager.cs",
@@ -132,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "EquipmentData.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Data\\EquipmentData.cs",
               "RelativeDocumentMoniker": "Script\\Inventory\\Data\\EquipmentData.cs",
@@ -140,23 +193,25 @@
               "RelativeToolTip": "Script\\Inventory\\Data\\EquipmentData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T20:50:13.431Z"
+              "WhenOpened": "2026-06-26T20:50:13.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "IInventoryEquipment.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IInventoryEquipment.cs",
               "RelativeDocumentMoniker": "Script\\Inventory\\Interfaces\\IInventoryEquipment.cs",
               "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IInventoryEquipment.cs",
               "RelativeToolTip": "Script\\Inventory\\Interfaces\\IInventoryEquipment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T20:48:45.071Z"
+              "WhenOpened": "2026-06-26T20:48:45.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "IInventorySegmentsOrchestrator.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IInventorySegmentsOrchestrator.cs",
               "RelativeDocumentMoniker": "Script\\Inventory\\Interfaces\\IInventorySegmentsOrchestrator.cs",
@@ -168,20 +223,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "InventorySegment.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Data\\InventorySegment.cs",
               "RelativeDocumentMoniker": "Script\\Inventory\\Data\\InventorySegment.cs",
               "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\Data\\InventorySegment.cs",
               "RelativeToolTip": "Script\\Inventory\\Data\\InventorySegment.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswBQAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-26T20:26:40.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "IItemFeedback.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IItemFeedback.cs",
               "RelativeDocumentMoniker": "Script\\Inventory\\Interfaces\\IItemFeedback.cs",
@@ -193,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "ItemCategoriesEnum.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Data\\ItemCategoriesEnum.cs",
               "RelativeDocumentMoniker": "Script\\Inventory\\Data\\ItemCategoriesEnum.cs",
@@ -201,11 +256,12 @@
               "RelativeToolTip": "Script\\Inventory\\Data\\ItemCategoriesEnum.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T16:35:34.444Z"
+              "WhenOpened": "2026-06-26T16:35:34.444Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "IItemActionScript.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Interfaces\\IItemActionScript.cs",
               "RelativeDocumentMoniker": "Script\\Inventory\\Interfaces\\IItemActionScript.cs",
@@ -217,15 +273,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "ItemRes.cs",
               "DocumentMoniker": "A:\\Godot games\\rubic1\\Script\\Inventory\\Resources\\ItemRes.cs",
               "RelativeDocumentMoniker": "Script\\Inventory\\Resources\\ItemRes.cs",
               "ToolTip": "A:\\Godot games\\rubic1\\Script\\Inventory\\Resources\\ItemRes.cs",
               "RelativeToolTip": "Script\\Inventory\\Resources\\ItemRes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T16:22:22.273Z"
+              "WhenOpened": "2026-06-26T16:22:22.273Z",
+              "EditorCaption": ""
             }
           ]
         },

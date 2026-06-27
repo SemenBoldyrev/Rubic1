@@ -30,6 +30,7 @@ point_count = 4
 
 [sub_resource type="Resource" id="Resource_ukg1t"]
 script = ExtResource("10_jftbh")
+minMaxVolume = Vector2(-80, -20)
 alternativeType = 1
 playbackType = 2
 ascelerator = ExtResource("5_t0nc2")
@@ -43,5 +44,6 @@ metadata/_custom_type_script = "uid://cfiqfmrvgkk57"
 script = ExtResource("1_6bgx7")
 name = "Some synth"
 instrumentType = 1
+octave = 6
 soundData = SubResource("Resource_ukg1t")
 metadata/_custom_type_script = "uid://cih5b048k0ptq"

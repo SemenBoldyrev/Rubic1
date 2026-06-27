@@ -24,5 +24,7 @@ namespace Rubic1.Script.Inventory.Interfaces
         public bool ItemIsEquiped(int itemId);
 
         public bool CanBeEquipped(ItemRes item);
+
+        public ItemRes GetItemByCategory(ItemCategoriesEnum category);
     }
 }

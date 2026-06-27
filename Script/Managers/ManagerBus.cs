@@ -16,13 +16,18 @@ namespace Rubic1.Script.Managers
 {
     public static class ManagerBus
     {
+        private static SignalBus signalBus = new SignalBus();
         private static InteractionManager interactionManager = new();
+
         private static IDialManager dialogManager = new DialManager();
         private static IPianoManager pianoManager = new PianoManager();
         private static INoteSubscription noteSubscription = new NoteSubscription();
         private static IInventoryManager inventoryManager = new InventoryManager();
 
+
+        public static SignalBus SignalBus { get { return signalBus; } }
         public static InteractionManager InteractionManager { get { return interactionManager; } set { interactionManager = value; } }
+
         public static IDialManager DialogManager { get {return dialogManager; } set { dialogManager = value; } }
         public static IPianoManager PianoManager { get {return pianoManager; } set { pianoManager = value; } }
         public static INoteSubscription NoteSubscription { get { return noteSubscription; } set { noteSubscription = value; } }

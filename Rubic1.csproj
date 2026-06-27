@@ -6,7 +6,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Script\Inventory\ActionPresets\" />
-    <Folder Include="Script\Inventory\UI\" />
     <Folder Include="Script\NewPianoScript\SoundReceiverScript\Interfaces\" />
     <Folder Include="Script\NewPianoScript\SoundReceiverScript\Abs\" />
   </ItemGroup>

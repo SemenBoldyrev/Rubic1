@@ -18,6 +18,7 @@ namespace Rubic1.Script.Inventory.Resources
         [Export] private CompressedTexture2D icon;
         [Export] private string name;
         [Export] private string description;
+        [Export] private bool flag;
 
         [Export] private ItemCategoriesEnum category;
 
@@ -31,10 +32,11 @@ namespace Rubic1.Script.Inventory.Resources
         public CompressedTexture2D Icon => icon;
         public string Name => name;
         public string Description => description;
+        public bool Flag => flag;
 
         public ItemCategoriesEnum Category => category;
 
-        public CSharpScript Script => script is IItemActionScript ? script : null;
+        public IItemActionScript Script => script is IItemActionScript ? (IItemActionScript)script : null;
         public Resource RespectiveResource => respectiveResource;
     }
 }

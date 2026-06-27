@@ -32,6 +32,7 @@ point_count = 4
 
 [sub_resource type="Resource" id="Resource_7u3fa"]
 script = ExtResource("3_7u3fa")
+minMaxVolume = Vector2(-80, 10)
 alternativeType = 2
 ascelerator = ExtResource("2_3j10o")
 pitchLFO = ExtResource("6_vn6ei")
@@ -43,6 +44,7 @@ metadata/_custom_type_script = "uid://cfiqfmrvgkk57"
 [resource]
 script = ExtResource("1_sc24q")
 name = "Mega fonk mango player"
+octave = 3
 soundData = SubResource("Resource_7u3fa")
 audioFilters = Array[AudioEffect]([SubResource("AudioEffectDelay_fxqcg")])
 metadata/_custom_type_script = "uid://cih5b048k0ptq"
