@@ -1,3 +1,4 @@
+using Godot;
 using Rubic1.Script.Inventory.Data;
 using Rubic1.Script.Inventory.Interfaces;
 using Rubic1.Script.Inventory.Resources;
@@ -79,8 +80,11 @@ namespace Rubic1.Script.Inventory
 
         public bool RequestAddition(ItemRes res)
         {
+            GD.Print($"Trying adding item {res.Name}");
             if (!this.inventorySegmentsOrchestrator.CanAddItem(res)) return false;
-            bool ans = this.inventorySegmentsOrchestrator.CanAddItem(res);
+            bool ans = this.inventorySegmentsOrchestrator.GiveItem(res);
+
+            GD.Print($"Item {res.Name} can be added: {ans}");
 
             if (ans)
             {
@@ -98,8 +102,19 @@ namespace Rubic1.Script.Inventory
 
         public bool RequestEquip(ItemRes res)
         {
-            if (!this.InventoryEquipment.CanBeEquipped(res)) return false;
+            GD.Print($"resource to equipe: {res.Name}");
+
+            //if (!this.InventoryEquipment.CanBeEquipped(res)) return false;
+            if (!this.InventoryEquipment.HasCategory(res.Category)) return false;
             bool ans = this.inventoryEquipment.EquipeItem(res);
+            GD.Print($"1 ans: {ans}");
+
+            if (!ans && this.inventoryEquipment.HasCategory(res.Category))
+            {
+                this.inventoryEquipment.UnequipeByCategory(res.Category);
+                ans = this.inventoryEquipment.EquipeItem(res);
+                GD.Print($"2 ans: {ans}");
+            }
 
             if (ans)
             {

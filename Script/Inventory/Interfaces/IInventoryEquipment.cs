@@ -26,5 +26,12 @@ namespace Rubic1.Script.Inventory.Interfaces
         public bool CanBeEquipped(ItemRes item);
 
         public ItemRes GetItemByCategory(ItemCategoriesEnum category);
+
+        public bool HasCategory(ItemCategoriesEnum category);
+        public bool UnequipeByCategory(ItemCategoriesEnum category);
+
+        public ItemRes GetResFromSlots(ItemCategoriesEnum category);
+        public ItemRes GetResFromSlots(int slotId);
+
     }
 }

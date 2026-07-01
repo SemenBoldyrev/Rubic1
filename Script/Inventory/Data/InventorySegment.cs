@@ -11,7 +11,7 @@ namespace Rubic1.Script.Inventory.Data
     {
         private string name;
         private int limit;
-        private Dictionary<int, ItemRes> itemDict;
+        private Dictionary<int, ItemRes> itemDict = new();
         private ItemCategoriesEnum category;
 
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Rubic1.Script.Inventory.Data
 {
-    public struct EquipmentData
+    public class EquipmentData // <-- for the future generations, as his magesty Gemini said, if the list<struct>[0], then it returns a copy, if list<class>[0], then reference, and at least it helped me...
     {
         private string name;
         private ItemCategoriesEnum category;

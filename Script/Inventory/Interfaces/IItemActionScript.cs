@@ -11,6 +11,9 @@ namespace Rubic1.Script.Inventory.Interfaces
     {
         public bool flag { get; }
 
+        public event Action UsageEnded;
+
         public void UseItem (Resource respectiveRes = null);
+        public void ClearCache();
     }
 }

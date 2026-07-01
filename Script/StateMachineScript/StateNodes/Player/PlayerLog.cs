@@ -1,5 +1,6 @@
 using Godot;
 using HV.Scripts.StateMachine.Example;
+using Rubic1.Script.Managers;
 using Rubic1.Script.Sets.AnimationSets;
 using Rubic1.Script.Sets.KeySets;
 using System;
@@ -22,11 +23,14 @@ namespace Rubic1.Script.StateMachineScript.StateNodes.Player
         public override void Enter()
         {
             PlayerAnimationPlayer.AnimationFinished += Finish;
+            SignalBus.InventoryClosed += OnInventoryClose;
             PlayerAnimationPlayer.Play(PlayerAnimationNames.GET_ITEM);
         }
 
         public override void Exit()
         {
+            SignalBus.InventoryClosed -= OnInventoryClose;
+            UiBus.InventoryUiBase.Show(false);
             PlayerAnimationPlayer.Play(PlayerAnimationNames.HIDE_ITEM);
         }
 
@@ -40,6 +44,7 @@ namespace Rubic1.Script.StateMachineScript.StateNodes.Player
             if (animName == PlayerAnimationNames.GET_ITEM)
             {
                 PlayerAnimationPlayer.Play(PlayerAnimationNames.READ_BOOK);
+                UiBus.InventoryUiBase.Show();
             }
         }
 
@@ -47,7 +52,7 @@ namespace Rubic1.Script.StateMachineScript.StateNodes.Player
         {
             if (@event.IsActionPressed(MainKeyNames.OPEN_LOG))
             {
-                transition.Invoke(IdleState);
+                OnInventoryClose();
                 return;
             }
         }
@@ -60,6 +65,11 @@ namespace Rubic1.Script.StateMachineScript.StateNodes.Player
         public override void Update(double delta)
         {
             //-
+        }
+
+        private void OnInventoryClose()
+        {
+            transition.Invoke(IdleState);
         }
     }
 }

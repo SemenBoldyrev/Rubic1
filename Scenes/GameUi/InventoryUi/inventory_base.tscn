@@ -1,0 +1,98 @@
+[gd_scene format=3 uid="uid://do27mkvkv15th"]
+
+[ext_resource type="Script" uid="uid://bghde32jrhdar" path="res://Script/Inventory/UI/InventoryUiBase.cs" id="1_f1ily"]
+[ext_resource type="PackedScene" uid="uid://dhor4qy6aq3ej" path="res://Scenes/GameUi/InventoryUi/inventory_item_representor.tscn" id="1_i0cs2"]
+
+[node name="InventoryBase" type="Control" unique_id=489993081 node_paths=PackedStringArray("infoLable", "itemRepresentorsContainer", "choiceContainer", "segmentContainer", "exitButton")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f1ily")
+infoLable = NodePath("MainMargin/HBoxContainer/MarginContainer/VBoxContainer/InfoShower/RichTextLabel")
+itemRepresentorsContainer = NodePath("MainMargin/HBoxContainer/MarginContainer/VBoxContainer/ItemShower/ScrollContainer/GridContainer")
+choiceContainer = NodePath("MainMargin/HBoxContainer/MarginContainer/VBoxContainer/InfoShower/ButtonContainer")
+segmentContainer = NodePath("MainMargin/HBoxContainer/SegmentSelection/AdditionContainer/SegmentContainer")
+exitButton = NodePath("MainMargin/HBoxContainer/SegmentSelection/AdditionContainer/ExitButton")
+buttonRepresentatorScene = ExtResource("1_i0cs2")
+
+[node name="MainMargin" type="MarginContainer" parent="." unique_id=1822917845]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MainMargin" unique_id=1651508818]
+layout_mode = 2
+
+[node name="SegmentSelection" type="MarginContainer" parent="MainMargin/HBoxContainer" unique_id=2092623842]
+layout_mode = 2
+
+[node name="AdditionContainer" type="VBoxContainer" parent="MainMargin/HBoxContainer/SegmentSelection" unique_id=1388193090]
+layout_mode = 2
+
+[node name="SegmentContainer" type="VBoxContainer" parent="MainMargin/HBoxContainer/SegmentSelection/AdditionContainer" unique_id=2050716001]
+layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+
+[node name="ExitButton" type="Button" parent="MainMargin/HBoxContainer/SegmentSelection/AdditionContainer" unique_id=491143171]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Return"
+
+[node name="MarginContainer" type="MarginContainer" parent="MainMargin/HBoxContainer" unique_id=2029669507]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_right = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MainMargin/HBoxContainer/MarginContainer" unique_id=79663490]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ItemShower" type="MarginContainer" parent="MainMargin/HBoxContainer/MarginContainer/VBoxContainer" unique_id=906029585]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MainMargin/HBoxContainer/MarginContainer/VBoxContainer/ItemShower" unique_id=286816550]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="GridContainer" type="GridContainer" parent="MainMargin/HBoxContainer/MarginContainer/VBoxContainer/ItemShower/ScrollContainer" unique_id=2019248094]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 3
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 4
+
+[node name="InfoShower" type="MarginContainer" parent="MainMargin/HBoxContainer/MarginContainer/VBoxContainer" unique_id=314207950]
+custom_minimum_size = Vector2(0, 160)
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="MainMargin/HBoxContainer/MarginContainer/VBoxContainer/InfoShower" unique_id=1754507734]
+layout_mode = 2
+color = Color(0, 0, 0, 0.18431373)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MainMargin/HBoxContainer/MarginContainer/VBoxContainer/InfoShower" unique_id=959861473]
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 24
+text = "tttttttttttttt"
+
+[node name="ButtonContainer" type="HBoxContainer" parent="MainMargin/HBoxContainer/MarginContainer/VBoxContainer/InfoShower" unique_id=591289208]
+layout_mode = 2
+alignment = 1

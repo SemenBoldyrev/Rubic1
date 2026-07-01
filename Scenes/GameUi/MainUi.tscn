@@ -2,9 +2,13 @@
 
 [ext_resource type="PackedScene" uid="uid://clv81lqnrtgt0" path="res://Scenes/Piano/piano.tscn" id="1_h3ysk"]
 [ext_resource type="PackedScene" uid="uid://cm6ascm8dmyp4" path="res://Scenes/Other/player_ui.tscn" id="2_2q4oc"]
+[ext_resource type="PackedScene" uid="uid://do27mkvkv15th" path="res://Scenes/GameUi/InventoryUi/inventory_base.tscn" id="3_4t336"]
 
 [node name="MainUi" type="CanvasLayer" unique_id=1166874803]
 
+[node name="PlayerUi" parent="." unique_id=389871876 instance=ExtResource("2_2q4oc")]
+
 [node name="Piano" parent="." unique_id=909658743 instance=ExtResource("1_h3ysk")]
 
-[node name="PlayerUi" parent="." unique_id=389871876 instance=ExtResource("2_2q4oc")]
+[node name="InventoryBase" parent="." unique_id=489993081 instance=ExtResource("3_4t336")]
+visible = false

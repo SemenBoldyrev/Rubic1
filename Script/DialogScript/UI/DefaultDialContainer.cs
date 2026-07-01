@@ -139,6 +139,9 @@ namespace Rubic1.Script.DialogScript.UI
                 };
                 ButtonContainer.AddChild(btn);
             }
+
+            Button curBtn = (Button)ButtonContainer.GetChild(0);
+            curBtn.GrabFocus();
         }
 
         private void ClearButtons()

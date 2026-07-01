@@ -31,6 +31,7 @@ namespace Rubic1.Script.Inventory
 
         public bool GiveItem(ItemRes item)
         {
+            if (!CanAddItem(item)) return false;
             if (segments.Where(s => s.Category == item.Category).Count() == 0 ) return false;
             return segments.Find(s => s.Category == item.Category).AddItem(item);
         }

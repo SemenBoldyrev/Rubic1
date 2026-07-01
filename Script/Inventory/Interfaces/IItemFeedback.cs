@@ -8,7 +8,8 @@ namespace Rubic1.Script.Inventory.Interfaces
 {
     public interface IItemFeedback
     {
-        public int AskQuestion(string question, List<string> answers =  null);
+        public event Action<int> SelectedChoice;
+        public void AskQuestion(List<string> answers, string question = null);
         public void GiveInfo(string info);
     }
 }

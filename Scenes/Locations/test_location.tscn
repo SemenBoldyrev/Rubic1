@@ -42,7 +42,7 @@ scale = Vector2(1.265, 1.1583334)
 texture = ExtResource("1_71pys")
 
 [node name="TestMainCharacter" parent="." unique_id=129582626 instance=ExtResource("2_qxu0t")]
-position = Vector2(474, 311)
+position = Vector2(461, 313)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1109549625]
 position = Vector2(404, 298)

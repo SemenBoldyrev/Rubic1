@@ -1,3 +1,4 @@
+using Godot;
 using Rubic1.Script.Inventory.Data;
 using Rubic1.Script.Inventory.Interfaces;
 using Rubic1.Script.Inventory.Resources;
@@ -27,15 +28,32 @@ namespace Rubic1.Script.Inventory
 
         public bool EquipeItem(ItemRes item)
         {
+            GD.Print($"Whom is thy item: {item.Name}");
             if (!CanBeEquipped(item)) return false;
             EquipmentData relevantSlot = GetAvalibleEquipmentSlots(item)[0];
             relevantSlot.RespectiveRes = item;
+            GD.Print($"Ok, i equipped such thing: {relevantSlot.RespectiveRes}");
             return true;
         }
 
         public ItemRes GetItemByCategory(ItemCategoriesEnum category)
         {
             return equipmentSlots.Find(s => s.Category == category).RespectiveRes;
+        }
+
+        public ItemRes GetResFromSlots(ItemCategoriesEnum category)
+        {
+            return equipmentSlots.Find(s => s.Category == category).RespectiveRes;
+        }
+
+        public ItemRes GetResFromSlots(int slotId)
+        {
+            return equipmentSlots[slotId].RespectiveRes;
+        }
+
+        public bool HasCategory(ItemCategoriesEnum category)
+        {
+            return equipmentSlots.Where(s => s.Category == category).Any();
         }
 
         public bool ItemIsEquiped(ItemRes item)
@@ -52,6 +70,14 @@ namespace Rubic1.Script.Inventory
         {
             if (equipmentSlotId < 0 || equipmentSlotId >= equipmentSlots.Count) return;
             equipmentSlots.RemoveAt(equipmentSlotId);
+        }
+
+        public bool UnequipeByCategory(ItemCategoriesEnum category)
+        {
+            if (!HasCategory(category)) return false;
+            EquipmentData curSlot = equipmentSlots.Find(s => s.Category == category);
+            curSlot.RespectiveRes = null;
+            return true;
         }
 
         public bool UnequipItem(ItemRes item)

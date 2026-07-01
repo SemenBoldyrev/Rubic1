@@ -1,5 +1,6 @@
 using Godot;
 using HV.Scripts.StateMachine.Example;
+using Rubic1.Script.Inventory.Resources;
 using Rubic1.Script.Managers;
 using Rubic1.Script.NewPianoScript.Data;
 using Rubic1.Script.Sets.AnimationSets;
@@ -20,7 +21,7 @@ namespace Rubic1.Script.StateMachineScript.StateNodes.Player
 
         [Export] Timer DanceAnimSpanTimer;
 
-        [Export] InstrumentRes relativeInst;
+        private InstrumentRes relativeInst;
 
         private bool canPlay = false;
 
@@ -29,11 +30,8 @@ namespace Rubic1.Script.StateMachineScript.StateNodes.Player
 
         private bool finishing = false;
 
-        private InstrumentRes instrument;
-
         public override void Enter()
         {
-            instrument = relativeInst;
             PlayerAnimationPlayer.AnimationFinished += Finish;
             // what?
             if (canPlay) PlayerAnimationPlayer.Play(PlayerAnimationNames.FLUTE_STAY);
@@ -69,8 +67,13 @@ namespace Rubic1.Script.StateMachineScript.StateNodes.Player
             }
             if (animName == PlayerAnimationNames.GET_ITEM)
             {
+                if (!GetInstrument())
+                {
+                    NoInstrumentFound();
+                    return;
+                }
                 PlayerAnimationPlayer.Play(PlayerAnimationNames.FLUTE_STAY);
-                ManagerBus.PianoManager.StartPianoSession(instrument);
+                ManagerBus.PianoManager.StartPianoSession(relativeInst);
                 canPlay = true;
             }
         }
@@ -106,6 +109,31 @@ namespace Rubic1.Script.StateMachineScript.StateNodes.Player
                 DanceAnimSpanTimer.Start();
             }
             
+        }
+
+        private void NoInstrumentFound()
+        {
+            transition.Invoke(IdleState);
+        }
+
+        private bool GetInstrument()
+        {
+            ItemRes itm = ManagerBus.InventoryManager.InventoryEquipment.GetItemByCategory(Inventory.Data.ItemCategoriesEnum.Instrument);
+
+            if (itm == null)
+            {
+                return false;
+            }
+            try
+            {
+                relativeInst = (InstrumentRes)itm.RespectiveResource;
+            }
+            catch
+            {
+                GD.Print($"Error converting item {itm.Name} on index {itm.Index} to InstrumentRes");
+                return false;
+            }
+            return true;
         }
     }
 }

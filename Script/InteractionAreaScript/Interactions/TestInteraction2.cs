@@ -16,9 +16,19 @@ namespace Rubic1.Script.InteractionAreaScript.Interactions
             StartInteractionEmit();
             GD.Print("Interaction successful 2");
             //
-            ManagerBus.DialogManager.StartDialogByPath("res://Dial/TestDialFolder/SampleExample.json");
+            //ManagerBus.DialogManager.DialogEnded += OnDialEnd;
+            // ManagerBus.DialogManager.StartDialogByPath("res://Dial/TestDialFolder/SampleExample.json");
+            OnDialEnd(true);
             //
             FinishInteractionEmit();
+        }
+
+        private void OnDialEnd(bool cor)
+        {
+            ManagerBus.InventoryManager.RequestAddition(SetsBus.ItemResHolder.GetItemByIndex(2));
+            ManagerBus.InventoryManager.RequestAddition(SetsBus.ItemResHolder.GetItemByIndex(1));
+
+            ManagerBus.DialogManager.DialogEnded -= OnDialEnd;
         }
     }
 }
