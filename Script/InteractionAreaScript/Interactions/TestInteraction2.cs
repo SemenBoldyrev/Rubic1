@@ -27,6 +27,7 @@ namespace Rubic1.Script.InteractionAreaScript.Interactions
         {
             ManagerBus.InventoryManager.RequestAddition(SetsBus.ItemResHolder.GetItemByIndex(2));
             ManagerBus.InventoryManager.RequestAddition(SetsBus.ItemResHolder.GetItemByIndex(1));
+            ManagerBus.InventoryManager.RequestAddition(SetsBus.ItemResHolder.GetItemByIndex(3));
 
             ManagerBus.DialogManager.DialogEnded -= OnDialEnd;
         }

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemRes" format=3 uid="uid://dbtnhy40a0req"]
+
+[ext_resource type="Script" uid="uid://5v06a1qsvr3k" path="res://Script/Inventory/ActionPresets/EquipeInstrumentItemAction.cs" id="1_f3in1"]
+[ext_resource type="Script" uid="uid://dt7qsewcgfkft" path="res://Script/Inventory/Resources/ItemRes.cs" id="1_wafxr"]
+[ext_resource type="Texture2D" uid="uid://cw3j2v47l2jdc" path="res://Assets/Sprites/UI/pointer.png" id="2_8epkl"]
+[ext_resource type="Resource" uid="uid://qpcgjbk2jtht" path="res://Resources/Instruments/instrumentariumos.tres" id="3_8l1kb"]
+
+[resource]
+script = ExtResource("1_wafxr")
+id = 3
+icon = ExtResource("2_8epkl")
+name = "That one thing"
+description = "This is another item for testing"
+actScript = ExtResource("1_f3in1")
+respectiveResource = ExtResource("3_8l1kb")
+metadata/_custom_type_script = "uid://dt7qsewcgfkft"

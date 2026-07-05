@@ -8,6 +8,7 @@ namespace Rubic1.Script.NewPianoScript.Data.Enums
 {
     public enum InstrumentKeyboardEnum
     {
-        Default,
+        Twelwe = 0,
+        TwentyFour = 1
     }
 }

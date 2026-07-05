@@ -21,6 +21,7 @@ layout_mode = 1
 
 [node name="Sounding" type="Node" parent="." unique_id=1854493329]
 script = ExtResource("3_eambc")
+maxAmountSounds = 24
 relevantBus = &"PianoAudioBus"
 
 [node name="Controller for piano" type="Control" parent="." unique_id=611358921 node_paths=PackedStringArray("soundPlayer")]

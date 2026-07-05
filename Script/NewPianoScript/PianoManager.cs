@@ -82,9 +82,9 @@ namespace Rubic1.Script.NewPianoScript
         private void OnKeyboardKeyPressed(int value)
         {
             if (!Active) return;
-
+            GD.Print("a");
             PianoSound.RequestSound(value);
-            
+            GD.Print("b");
 
             NoteData ndt = new NoteData();
 

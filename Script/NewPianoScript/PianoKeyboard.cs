@@ -17,7 +17,7 @@ namespace Rubic1.Script.NewPianoScript
         public event Action<bool> KeyboardAltKeyStateChanged;
 
         private IPianoPiano curKeyboard = null;
-        private List<IPianoPiano> Keyboards = new List<IPianoPiano>();
+        private System.Collections.Generic.Dictionary<int, IPianoPiano> Keyboards = new();
 
         private bool anyKeyPressed = false;
         public bool AnyKeyPressed => anyKeyPressed;
@@ -30,7 +30,7 @@ namespace Rubic1.Script.NewPianoScript
             {
                 if (childrens[i] is not IPianoPiano) continue;
                 IPianoPiano piano = (IPianoPiano)childrens[i];
-                Keyboards.Add(piano);
+                Keyboards.Add(piano.Index, piano);
 
                 piano.KeyPressed += OnKeyPress;
                 piano.KeyReleased += OnKeyRelease;
@@ -67,6 +67,11 @@ namespace Rubic1.Script.NewPianoScript
                 return;
             }
             if (curKeyboard != null) return;
+            if (!Keyboards.ContainsKey(id))
+            {
+                GD.Print($"No such keyboard id: {id}");
+                return;
+            }
 
             anyKeyPressed = false;
             curKeyboard = Keyboards[id];

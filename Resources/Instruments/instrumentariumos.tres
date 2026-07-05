@@ -1,0 +1,40 @@
+[gd_resource type="Resource" script_class="InstrumentRes" format=3 uid="uid://qpcgjbk2jtht"]
+
+[ext_resource type="Script" uid="uid://cih5b048k0ptq" path="res://Script/NewPianoScript/Data/InstrumentRes.cs" id="1_r66mn"]
+[ext_resource type="Curve" uid="uid://dlrrfgupmarb6" path="res://Resources/CurvePresets/BasicEnvelopCurveA.tres" id="2_qvxfm"]
+[ext_resource type="Script" uid="uid://bqqtpni3hdl3v" path="res://Script/NewPianoScript/Data/SoundDataScript/AltData.cs" id="3_mj8ji"]
+[ext_resource type="Curve" uid="uid://blwn1riyqom5q" path="res://Resources/CurvePresets/SquareWave.tres" id="4_aarad"]
+[ext_resource type="Curve" uid="uid://crotl5gojifwo" path="res://Resources/CurvePresets/SawWave.tres" id="5_mf2sc"]
+[ext_resource type="Curve" uid="uid://cfdh8l6y1i4o1" path="res://Resources/CurvePresets/BasicEnvelopCurveB.tres" id="6_m556k"]
+[ext_resource type="Script" uid="uid://dcmbg3260hxty" path="res://Script/NewPianoScript/Data/SoundDataScript/EnvelopSoundData.cs" id="7_8ughl"]
+[ext_resource type="Curve" uid="uid://bu8aquftl8v6m" path="res://Resources/CurvePresets/Blank.tres" id="8_bx72d"]
+[ext_resource type="Script" uid="uid://cfiqfmrvgkk57" path="res://Script/NewPianoScript/Data/SoundDataScript/SoundData.cs" id="9_qkc0d"]
+
+[sub_resource type="Resource" id="Resource_7a5s8"]
+script = ExtResource("3_mj8ji")
+pedalEnvelopB = ExtResource("2_qvxfm")
+vibratoLFO = ExtResource("4_aarad")
+metadata/_custom_type_script = "uid://bqqtpni3hdl3v"
+
+[sub_resource type="Resource" id="Resource_wgy87"]
+script = ExtResource("7_8ughl")
+envelopA = ExtResource("2_qvxfm")
+envelopB = ExtResource("6_m556k")
+metadata/_custom_type_script = "uid://dcmbg3260hxty"
+
+[sub_resource type="Resource" id="Resource_mo20g"]
+script = ExtResource("9_qkc0d")
+minMaxVolume = Vector2(-80, -10)
+ascelerator = ExtResource("5_mf2sc")
+pitchLFO = ExtResource("8_bx72d")
+volumeLFO = ExtResource("8_bx72d")
+envelopData = SubResource("Resource_wgy87")
+altSoundData = SubResource("Resource_7a5s8")
+metadata/_custom_type_script = "uid://cfiqfmrvgkk57"
+
+[resource]
+script = ExtResource("1_r66mn")
+name = "Instrumentarium instrument"
+keyboard = 1
+soundData = SubResource("Resource_mo20g")
+metadata/_custom_type_script = "uid://cih5b048k0ptq"

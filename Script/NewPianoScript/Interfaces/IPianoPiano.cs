@@ -13,6 +13,8 @@ namespace Rubic1.Script.NewPianoScript.Interfaces
         public Array<PianoKey> PianoKeyArray { get; }
         public PianoKey PianoAltKey { get; }
 
+        public int Index { get; }
+
         public event Action<int> KeyPressed;
         public event Action<int> KeyReleased;
         public event Action<bool> KeyboardAltKeyStateChanged;

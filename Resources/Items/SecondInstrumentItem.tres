@@ -1,14 +1,14 @@
 [gd_resource type="Resource" script_class="ItemRes" format=3 uid="uid://xf5v8e8yp6r8"]
 
 [ext_resource type="Script" uid="uid://dt7qsewcgfkft" path="res://Script/Inventory/Resources/ItemRes.cs" id="1_fawco"]
-[ext_resource type="Texture2D" uid="uid://ctjpg1pclwfkx" path="res://Assets/Sprites/Portraits/TST_portraits.png" id="1_ldx0g"]
 [ext_resource type="Script" uid="uid://5v06a1qsvr3k" path="res://Script/Inventory/ActionPresets/EquipeInstrumentItemAction.cs" id="1_utr2m"]
+[ext_resource type="Texture2D" uid="uid://b5f45aeqkhjp" path="res://Assets/Sprites/UI/Fat_circle.png" id="2_274ur"]
 [ext_resource type="Resource" uid="uid://dupimg6c7pjxs" path="res://Resources/Instruments/SecondInstrument.tres" id="3_ibo7a"]
 
 [resource]
 script = ExtResource("1_fawco")
 id = 1
-icon = ExtResource("1_ldx0g")
+icon = ExtResource("2_274ur")
 name = "Instrument res"
 description = "This is a resource, holding second instrument"
 flag = true

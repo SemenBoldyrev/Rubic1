@@ -12,7 +12,8 @@ namespace Rubic1.Script.NewPianoScript.Keyboards
 {
     public partial class StandartKeyboard : Control, IPianoPiano
     {
-        [Export] Control pianoKeyContainer;
+        [Export] int index = 0;
+        [Export] Array<Container> pianoKeyContainers;
         [Export] PianoKey altKey;
 
         private Array<PianoKey> keys = new();
@@ -20,13 +21,21 @@ namespace Rubic1.Script.NewPianoScript.Keyboards
         public Array<PianoKey> PianoKeyArray => keys;
         public PianoKey PianoAltKey => altKey;
 
+        public int Index => index;
+
         public event Action<int> KeyPressed;
         public event Action<int> KeyReleased;
         public event Action<bool> KeyboardAltKeyStateChanged;
 
         public override void _Ready()
         {
-            Array<Node> chd = pianoKeyContainer.GetChildren();
+            Array<Node> chd = new();
+            // not the best, but should work
+            foreach (Node container in pianoKeyContainers)
+            {
+                for (int i = 0; i < container.GetChildCount(); i++) chd.Add(container.GetChild(i));
+            }
+
             for (int i = 0; i < chd.Count; i++)
             {
                 if (chd[i] is PianoKey)

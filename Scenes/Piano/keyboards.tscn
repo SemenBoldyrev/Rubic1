@@ -4,19 +4,31 @@
 [ext_resource type="Texture2D" uid="uid://eixyxx4gec4h" path="res://Assets/Sprites/icon.svg" id="2_yhpio"]
 [ext_resource type="Script" uid="uid://b364vpy0m264y" path="res://Script/NewPianoScript/Keyboards/StandartKeyboard.cs" id="3_gdg8s"]
 [ext_resource type="Script" uid="uid://dciyaiufav3cj" path="res://Script/NewPianoScript/Nodes/PianoKey.cs" id="4_gdg8s"]
-[ext_resource type="Shortcut" uid="uid://gxqydn4e1vv8" path="res://Shortcuts/PianoShortcuts/Сkey.tres" id="5_cc7q7"]
-[ext_resource type="Shortcut" uid="uid://bvgqn0har48vq" path="res://Shortcuts/PianoShortcuts/C#key.tres" id="6_y8upq"]
-[ext_resource type="Shortcut" uid="uid://dbvcb0hpaifrx" path="res://Shortcuts/PianoShortcuts/Dkey.tres" id="7_fjqlx"]
-[ext_resource type="Shortcut" uid="uid://cm1phyjnmqyxs" path="res://Shortcuts/PianoShortcuts/D#key.tres" id="8_rxv7p"]
-[ext_resource type="Shortcut" uid="uid://blpivaysmn5ek" path="res://Shortcuts/PianoShortcuts/Ekey.tres" id="9_rquuo"]
-[ext_resource type="Shortcut" uid="uid://dmeabb854al6w" path="res://Shortcuts/PianoShortcuts/Fkey.tres" id="10_1j36s"]
-[ext_resource type="Shortcut" uid="uid://clehleimaai60" path="res://Shortcuts/PianoShortcuts/F#key.tres" id="11_umroj"]
-[ext_resource type="Shortcut" uid="uid://cdickkjpfvx3v" path="res://Shortcuts/PianoShortcuts/Gkey.tres" id="12_ocso5"]
-[ext_resource type="Shortcut" uid="uid://dvdv2qpso81fy" path="res://Shortcuts/PianoShortcuts/G#key.tres" id="13_pbs3e"]
-[ext_resource type="Shortcut" uid="uid://2psi82ico6gn" path="res://Shortcuts/PianoShortcuts/Akey.tres" id="14_if70c"]
-[ext_resource type="Shortcut" uid="uid://oy887k6xtjxb" path="res://Shortcuts/PianoShortcuts/A#key.tres" id="15_xf7nd"]
-[ext_resource type="Shortcut" uid="uid://dcsktwt8lytje" path="res://Shortcuts/PianoShortcuts/Bkey.tres" id="16_p8as0"]
-[ext_resource type="Shortcut" uid="uid://ctj5igah02kso" path="res://Shortcuts/PianoShortcuts/ALTkey.tres" id="17_y8upq"]
+[ext_resource type="Shortcut" uid="uid://gxqydn4e1vv8" path="res://Shortcuts/PianoShortcuts/BaseKeys/Сkey.tres" id="5_cc7q7"]
+[ext_resource type="Shortcut" uid="uid://bvgqn0har48vq" path="res://Shortcuts/PianoShortcuts/BaseKeys/C#key.tres" id="6_y8upq"]
+[ext_resource type="Shortcut" uid="uid://dbvcb0hpaifrx" path="res://Shortcuts/PianoShortcuts/BaseKeys/Dkey.tres" id="7_fjqlx"]
+[ext_resource type="Shortcut" uid="uid://cm1phyjnmqyxs" path="res://Shortcuts/PianoShortcuts/BaseKeys/D#key.tres" id="8_rxv7p"]
+[ext_resource type="Shortcut" uid="uid://blpivaysmn5ek" path="res://Shortcuts/PianoShortcuts/BaseKeys/Ekey.tres" id="9_rquuo"]
+[ext_resource type="Shortcut" uid="uid://dmeabb854al6w" path="res://Shortcuts/PianoShortcuts/BaseKeys/Fkey.tres" id="10_1j36s"]
+[ext_resource type="Shortcut" uid="uid://clehleimaai60" path="res://Shortcuts/PianoShortcuts/BaseKeys/F#key.tres" id="11_umroj"]
+[ext_resource type="Shortcut" uid="uid://cdickkjpfvx3v" path="res://Shortcuts/PianoShortcuts/BaseKeys/Gkey.tres" id="12_ocso5"]
+[ext_resource type="Shortcut" uid="uid://dvdv2qpso81fy" path="res://Shortcuts/PianoShortcuts/BaseKeys/G#key.tres" id="13_pbs3e"]
+[ext_resource type="Shortcut" uid="uid://2psi82ico6gn" path="res://Shortcuts/PianoShortcuts/BaseKeys/Akey.tres" id="14_if70c"]
+[ext_resource type="Shortcut" uid="uid://oy887k6xtjxb" path="res://Shortcuts/PianoShortcuts/BaseKeys/A#key.tres" id="15_xf7nd"]
+[ext_resource type="Shortcut" uid="uid://dcsktwt8lytje" path="res://Shortcuts/PianoShortcuts/BaseKeys/Bkey.tres" id="16_p8as0"]
+[ext_resource type="Shortcut" uid="uid://ctj5igah02kso" path="res://Shortcuts/PianoShortcuts/BaseKeys/ALTkey.tres" id="17_y8upq"]
+[ext_resource type="Shortcut" uid="uid://dymki3yeydtix" path="res://Shortcuts/PianoShortcuts/BonusKeys/C1Key.tres" id="18_mo20g"]
+[ext_resource type="Shortcut" uid="uid://dvbfsys284q8i" path="res://Shortcuts/PianoShortcuts/BonusKeys/C#1Key.tres" id="19_wgy87"]
+[ext_resource type="Shortcut" uid="uid://cvmp0u7im8srk" path="res://Shortcuts/PianoShortcuts/BonusKeys/D1Key.tres" id="20_7a5s8"]
+[ext_resource type="Shortcut" uid="uid://dfil671w7wsah" path="res://Shortcuts/PianoShortcuts/BonusKeys/D#1Key.tres" id="21_vhnqb"]
+[ext_resource type="Shortcut" uid="uid://q6kle2xj4uy3" path="res://Shortcuts/PianoShortcuts/BonusKeys/E1Key.tres" id="22_ia5pd"]
+[ext_resource type="Shortcut" uid="uid://pgr3hp7qcvl3" path="res://Shortcuts/PianoShortcuts/BonusKeys/F1Key.tres" id="23_3o1v3"]
+[ext_resource type="Shortcut" uid="uid://bdkj1dhr3pue5" path="res://Shortcuts/PianoShortcuts/BonusKeys/F#1Key.tres" id="24_1j32f"]
+[ext_resource type="Shortcut" uid="uid://d1kqppqexe3qi" path="res://Shortcuts/PianoShortcuts/BonusKeys/G1Key.tres" id="25_q0abq"]
+[ext_resource type="Shortcut" uid="uid://b7b622orfd0rl" path="res://Shortcuts/PianoShortcuts/BonusKeys/G#1Key.tres" id="26_sss0t"]
+[ext_resource type="Shortcut" uid="uid://b6343sx20ycn2" path="res://Shortcuts/PianoShortcuts/BonusKeys/A1Key.tres" id="27_vqrnt"]
+[ext_resource type="Shortcut" uid="uid://cjsdelq3yxwgi" path="res://Shortcuts/PianoShortcuts/BonusKeys/A#1Key.tres" id="28_dqyro"]
+[ext_resource type="Shortcut" uid="uid://dx8x0vrqn8njf" path="res://Shortcuts/PianoShortcuts/BonusKeys/B1Key.tres" id="29_lxbaa"]
 
 [node name="Keyboards" type="Control" unique_id=2139113674]
 layout_mode = 3
@@ -45,7 +57,8 @@ grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_yhpio")
 
-[node name="CommonKeyboard" type="Control" parent="." unique_id=1396929583 node_paths=PackedStringArray("pianoKeyContainer", "altKey")]
+[node name="CommonKeyboard" type="Control" parent="." unique_id=1396929583 node_paths=PackedStringArray("pianoKeyContainers", "altKey")]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -53,7 +66,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("3_gdg8s")
-pianoKeyContainer = NodePath("MarginContainer/VBoxContainer/HBoxContainer")
+pianoKeyContainers = [NodePath("MarginContainer/VBoxContainer/HBoxContainer")]
 altKey = NodePath("MarginContainer/VBoxContainer/AltKey")
 
 [node name="MarginContainer" type="MarginContainer" parent="CommonKeyboard" unique_id=676378133]
@@ -197,4 +210,273 @@ KeyValue = -1
 metadata/_custom_type_script = "uid://dciyaiufav3cj"
 
 [node name="Control" type="Control" parent="CommonKeyboard/MarginContainer" unique_id=1075177977]
+layout_mode = 2
+
+[node name="ExtendedKeyboard" type="Control" parent="." unique_id=111666178 node_paths=PackedStringArray("pianoKeyContainers", "altKey")]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3_gdg8s")
+index = 1
+pianoKeyContainers = [NodePath("MarginContainer/VBoxContainer/HBoxContainer2"), NodePath("MarginContainer/VBoxContainer/HBoxContainer")]
+altKey = NodePath("MarginContainer/VBoxContainer/AltKey")
+
+[node name="MarginContainer" type="MarginContainer" parent="ExtendedKeyboard" unique_id=1049209375]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ExtendedKeyboard/MarginContainer" unique_id=256230700]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="ExtendedKeyboard/MarginContainer/VBoxContainer" unique_id=2129476652]
+layout_mode = 2
+alignment = 1
+
+[node name="C1" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=777078370]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("18_mo20g")
+KeyValue = 12
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="C#1" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=1358673453]
+custom_minimum_size = Vector2(25, 50)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("19_wgy87")
+KeyValue = 13
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="D1" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=779396264]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("20_7a5s8")
+KeyValue = 14
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="D#1" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=322361415]
+custom_minimum_size = Vector2(25, 50)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("21_vhnqb")
+KeyValue = 15
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="E1" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=903165070]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("22_ia5pd")
+KeyValue = 16
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="F1" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=1873057693]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("23_3o1v3")
+KeyValue = 17
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="F#1" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=1710570925]
+custom_minimum_size = Vector2(25, 50)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("24_1j32f")
+KeyValue = 18
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="G1" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=1112352912]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("25_q0abq")
+KeyValue = 19
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="G#1" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=740062123]
+custom_minimum_size = Vector2(25, 50)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("26_sss0t")
+KeyValue = 20
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="A1" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=538695919]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("27_vqrnt")
+KeyValue = 21
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="A#1" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=1026314269]
+custom_minimum_size = Vector2(25, 50)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("28_dqyro")
+KeyValue = 22
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="B1" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer2" unique_id=666614082]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("29_lxbaa")
+KeyValue = 23
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ExtendedKeyboard/MarginContainer/VBoxContainer" unique_id=1177199848]
+layout_mode = 2
+alignment = 1
+
+[node name="C" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1530851076]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("5_cc7q7")
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="C#" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1150107437]
+custom_minimum_size = Vector2(25, 50)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("6_y8upq")
+KeyValue = 1
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="D" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer" unique_id=405090130]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("7_fjqlx")
+KeyValue = 2
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="D#" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1516095198]
+custom_minimum_size = Vector2(25, 50)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("8_rxv7p")
+KeyValue = 3
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="E" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer" unique_id=2073587788]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("9_rquuo")
+KeyValue = 4
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="F" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer" unique_id=2031836510]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("10_1j36s")
+KeyValue = 5
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="F#" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer" unique_id=116009074]
+custom_minimum_size = Vector2(25, 50)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("11_umroj")
+KeyValue = 6
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="G" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer" unique_id=345978554]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("12_ocso5")
+KeyValue = 7
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="G#" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1550162376]
+custom_minimum_size = Vector2(25, 50)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("13_pbs3e")
+KeyValue = 8
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="A" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer" unique_id=776438759]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("14_if70c")
+KeyValue = 9
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="A#" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer" unique_id=506709263]
+custom_minimum_size = Vector2(25, 50)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("15_xf7nd")
+KeyValue = 10
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="B" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1763444521]
+custom_minimum_size = Vector2(25, 75)
+layout_mode = 2
+size_flags_vertical = 0
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("16_p8as0")
+KeyValue = 11
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="AltKey" type="Button" parent="ExtendedKeyboard/MarginContainer/VBoxContainer" unique_id=1810571202]
+custom_minimum_size = Vector2(250, 25)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("4_gdg8s")
+shorts = ExtResource("17_y8upq")
+Toggalable = true
+KeyValue = -1
+metadata/_custom_type_script = "uid://dciyaiufav3cj"
+
+[node name="Control" type="Control" parent="ExtendedKeyboard/MarginContainer" unique_id=11808391]
 layout_mode = 2

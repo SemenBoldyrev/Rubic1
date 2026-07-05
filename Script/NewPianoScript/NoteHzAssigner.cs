@@ -28,6 +28,14 @@ namespace Rubic1.Script.NewPianoScript
 
         public float GetNoteHz(int noteId, int octInc = 0)
         {
+            if (noteId < 0) return 0f;
+            if (noteId > HzId.Count - 1) // good enough, should be rare and not above two octavs
+            {
+                int octBonus;
+                (noteId, octBonus) = GetAboveValue(noteId);
+
+                octInc += octBonus;
+            }
             int mdl = noteId / HzId.Count;
             float hz = HzId[noteId - mdl];
             return IncreaseOctave(hz ,mdl + octInc);
@@ -43,6 +51,20 @@ namespace Rubic1.Script.NewPianoScript
             if (octInc <= 0) return hz;
             hz = hz * 2;
             return IncreaseOctave(hz, octInc - 1);
+        }
+
+        private (int, int) GetAboveValue(int noteId)
+        {
+            int nid = noteId;
+            int octaveBonus = 0;
+
+            while (nid > 11)
+            {
+                nid -= 11;
+                octaveBonus ++;
+            }
+
+            return (nid, octaveBonus);
         }
     }
 }
